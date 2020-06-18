@@ -1,0 +1,51 @@
+.References{
+    background-color:rgba(243, 227, 103, 0.9);
+    width: 100%;
+    padding: 2rem 0;
+    color: rgb(127, 134,136, 0.9);
+}
+
+.Left {
+    display: flex;
+    flex-direction: column;
+}
+
+.Right {
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    margin: auto;
+    width: 100%;
+    justify-content: center;
+    
+}
+
+.References h2 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.References p {
+    margin: 0.25rem;
+    max-width: 270px;
+    text-align: center;
+    
+}
+
+
+@media only screen and (min-width: 300px) {
+    .Right, .Left{
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    .Right, .Left{
+        margin: 0rem 4rem;
+    }
+}
+
+

@@ -1,0 +1,63 @@
+.Skills{
+    background-color: rgb(33, 35, 63);
+    color:rgba(243, 227, 103, 0.9);
+}
+
+.Container {
+    background-color: rgba(127, 134, 130, 0.9);
+}
+
+.Adobe {
+    width: 90%;
+ }
+
+.Office{
+    width: 80%;
+}
+
+.Coding{
+    width: 30%;
+}
+
+.Maya{
+    width: 50%;
+}
+
+.Photography{
+    width: 70%;
+}
+
+.Line {
+    height: 2rem;
+    background-color: rgb(243, 227, 103, 0.9);
+    margin: 3rem 0rem;
+}
+
+.Text{
+    color: rgba(41, 41, 48, 1);
+    margin: 1rem;
+    padding-top: 0.35rem;
+}
+
+.Skills h2{
+    text-align: center;
+    font-size: 2rem;
+}
+
+@media only screen and (min-width: 300px) {
+    .Container {
+       margin: 0;
+    }
+    .Skills{
+        padding: 0rem;
+    }
+}
+
+@media only screen and (min-width: 765px) {
+    .Container {
+        margin: 2rem;
+    }
+    .Skills{
+        padding: 3rem;
+    }
+}
