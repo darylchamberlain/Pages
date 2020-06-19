@@ -1,7 +1,6 @@
 .Experience{
     background-color: rgb(146, 157, 158, 0.9);
     text-align: center;
-    padding: 5rem 0rem;
 }
 
 .Summary {
@@ -12,22 +11,22 @@
 
 .Manager{
     background-color: rgb(146, 157, 158, 0.9);
-   padding: 2rem 0;
+    padding: 5rem 0;
 }
 
 .Supervisor{
     background-color: rgb(127, 134,136, 0.9);
-    padding: 2rem 0;
+    padding: 5rem 0;
 }
 
 .Designer{
     background-color: rgb(146, 157, 158, 0.9);
-    padding: 2rem 0;
+    padding: 5rem 0;
 }
 
 .Artist{
     background-color: rgb(127, 134,136, 0.9);
-    padding: 2rem 0;
+    padding: 5rem 0;
 }
 
 .Experience h2{
@@ -41,7 +40,6 @@
     margin: 1rem auto;
     justify-content: center;
     align-items: center;
-    
 }
 
 

@@ -1,6 +1,7 @@
 .Skills{
     background-color: rgb(33, 35, 63);
     color:rgba(243, 227, 103, 0.9);
+    
 }
 
 .BarContainer {
@@ -42,6 +43,7 @@
 .Skills h2{
     text-align: center;
     font-size: 2rem;
+    margin: 0;
 }
 
 @media only screen and (min-width: 300px) {
@@ -49,7 +51,7 @@
        margin: 0;
     }
     .Skills{
-        padding: 0rem;
+        padding: 6rem 0rem;
     }
 }
 
@@ -58,6 +60,6 @@
         margin: 2rem;
     }
     .Skills{
-        padding: 3rem;
+        padding: 6rem;
     }
 }

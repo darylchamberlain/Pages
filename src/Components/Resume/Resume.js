@@ -12,17 +12,17 @@ import References from '../References/References';
 
 import NavBar2 from '../NavBar2/NavBar2';
 
+import Footer from '../Footer/Footer';
+
 class Resume extends React.Component {
     render() {
         return (
             <div className="Resume">
                 <NavBar2 />
-                <Link to="/Page1">
-                  Home
-                </Link>
                 <Skills />
                 <Experience />
                 <References />
+                <Footer />
             </div>
         )
     }

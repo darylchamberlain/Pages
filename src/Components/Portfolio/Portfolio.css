@@ -1,12 +1,7 @@
+Img {
+    display: inline-flex;
+    margin: 2rem;
+    max-width: 30%;
+    margin: 0 auto;
 
-
-.ImageContainer2 {
-    background-color: black;
-    height: 20rem;
-    width: 35%;
-    color: white;
-    background-image: url('../../Images/bill.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }

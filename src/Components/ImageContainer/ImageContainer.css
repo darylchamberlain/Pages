@@ -1,136 +1,14 @@
-.ImageContainer{
-    display: flex;
-    flex-direction: row;
-    margin-top: 3rem;
-}
 
 .Container{
+    margin-top: 7rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.Center{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
-    background-color: black;
-    width: 35%;
-    margin: 1rem;
-}
-
-.Image {
-    height: 20rem;
-    width: 100%;
-    color: white;
-    background-image: url('../../Images/beach.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: auto;
-}
-
-.Image2 {
-    height: 20rem;
-    width: 100%;
-    background-image: url('../../Images/cooler.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: auto;
-}
-
-.Image3 {
-    height: 20rem;
-    width: 100%;
-    background-image: url('../../Images/bird.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: auto;
-}
-
-.Image4 {
-    height: 20rem;
-    width: 100%;
-    background-image: url('../../Images/bottle.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: auto;
-}
-
-.Image5 {
-    height: 20rem;
-    width: 100%;
-    background-image: url('../../Images/flag.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: auto;
-}
-
-.Image6 {
-    height: 20rem;
-    width: 100%;
-    background-image: url('../../Images/fan2.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: auto;
-}
-
-.Image7 {
-    height: 20rem;
-    width: 100%;
-    background-image: url('../../Images/greenbay.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: auto;
-}
-
-.Image8 {
-    height: 20rem;
-    width: 100%;
-    background-image: url('../../Images/hiroko.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: auto;
-}
-
-.Image9 {
-    height: 20rem;
-    width: 100%;
-    background-image: url('../../Images/justice.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: auto;
-}
-
-.Image10 {
-    height: 20rem;
-    width: 100%;
-    background-image: url('../../Images/plush.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: auto;
-}
-
-.Image11 {
-    height: 20rem;
-    width: 100%;
-    background-image: url('../../Images/team2.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: auto;
-}
-
-.Image12 {
-    height: 20rem;
-    width: 100%;
-    background-image: url('../../Images/vr.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: auto;
 }
