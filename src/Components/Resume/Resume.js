@@ -4,25 +4,28 @@ import {Link } from "react-router-dom";
 
 import './Resume.css';
 
-import Skills from '../Skills/Skills';
+import Skills from './Skills/Skills';
 
-import Experience from '../Experience/Experience';
+import Experience from './Experience/Experience';
 
-import References from '../References/References';
+import References from './References/References';
 
-import NavBar2 from '../NavBar2/NavBar2';
+import NavBar from '../Body/NavBar/NavBar';
 
-import Footer from '../Footer/Footer';
+import Footer from '../Body/Footer/Footer';
+
+import Header from '../Body/Header/Header';
 
 class Resume extends React.Component {
     render() {
         return (
+            <div>
+                 <NavBar />
             <div className="Resume">
-                <NavBar2 />
                 <Skills />
                 <Experience />
-                <References />
-                <Footer />
+            </div>
+            <Footer />
             </div>
         )
     }

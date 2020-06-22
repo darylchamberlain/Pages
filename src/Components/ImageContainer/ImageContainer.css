@@ -1,9 +1,9 @@
 
 .Container{
-    margin-top: 7rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-bottom: 5rem;
 }
 
 .Center{
@@ -11,4 +11,10 @@
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
+}
+
+.Container h2{
+    font-size: 3rem;
+    text-align: center;
+    margin: 10rem 0;
 }

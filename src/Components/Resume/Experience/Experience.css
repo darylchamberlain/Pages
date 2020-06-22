@@ -1,0 +1,61 @@
+.Experience{
+    display: flex;
+    flex-direction: column;
+    background-color: #eaecf0;
+    width: 100%;
+}
+
+.Summary,
+.Manager,
+.Supervisor,
+.Designer,
+.Artist {
+    padding: 0;
+    margin: 0;
+}
+
+.Experience h2{
+    color:#05386b;
+    margin: 1rem auto;
+    font-weight: 500;
+}
+
+.Experience p{
+    display: flex;
+    margin: 0 auto;
+    color:#05386b;
+}
+
+@media only screen and (min-width:300px){
+    .Experience p{
+      letter-spacing: 0;
+      font-size: 0.7rem;
+    }
+    .Experience h2{
+        font-size: 1rem;
+        letter-spacing: 0;
+    }
+    .Experience{
+        padding: 1rem;
+        margin: auto;
+    }
+  }
+  @media only screen and (min-width:768px){
+    .Experience p{
+      font-size: 1rem;
+      
+    }
+    .Experience{
+        padding: 2rem;
+    }
+    .Experience h2{
+        font-size: 2rem;
+      }
+  }
+
+  @media only screen and (min-width:1024px){
+    .Experience{
+        padding: 7rem 4rem;
+    }
+  }
+    

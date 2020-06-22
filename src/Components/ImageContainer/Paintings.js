@@ -2,8 +2,6 @@ import React from 'react';
 
 import './ImageContainer.css';
 
-import {Link } from "react-router-dom";
-
 import beach from './assets/beach.jpg';
 
 import clean from './assets/clean.png';
@@ -31,20 +29,23 @@ import tea from './assets/tea.png'
 class Paintings extends React.Component {
     render() {
         return(
-        <div className="Center">
-            <img src={water} alt="water" />
-            <img src={gator} alt="gator" />
-            <img src={beach} alt="beach" />
-            <img src={clean} alt="clean" />
-            <img src={fan} alt="fan" />
-            <img src={boat} alt="boat" />
-            <img src={oldman} alt="oldman" />
-            <img src={flower} alt="flower" />
-            <img src={queen} alt="queen" />
-            <img src={umbrella} alt="umbrella" />
-            <img src={tea} alt="tea" />
-            <img src={flag} alt="flag" />
-          </div>
+            <div>
+                <h2>Paintings</h2>
+                 <div className="Center">
+                   <img src={water} alt="water" />
+                   <img src={gator} alt="gator" />
+                   <img src={beach} alt="beach" />
+                   <img src={clean} alt="clean" />
+                   <img src={fan} alt="fan" />
+                   <img src={boat} alt="boat" />
+                   <img src={oldman} alt="oldman" />
+                   <img src={flower} alt="flower" />
+                   <img src={queen} alt="queen" />
+                   <img src={umbrella} alt="umbrella" />
+                   <img src={tea} alt="tea" />
+                   <img src={flag} alt="flag" />
+                 </div>
+            </div>
         )
     }
 }

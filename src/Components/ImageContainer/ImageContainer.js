@@ -2,8 +2,6 @@ import React from 'react';
 
 import './ImageContainer.css';
 
-import {Link } from "react-router-dom";
-
 import beach from './assets/beach.jpg';
 
 import clean from './assets/clean.png';

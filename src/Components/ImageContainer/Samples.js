@@ -1,7 +1,5 @@
 import React from 'react';
 
-import {Link } from "react-router-dom";
-
 import golves from './assets/golves.jpg';
 
 import beanie from './assets/beanie.jpg';
@@ -37,25 +35,28 @@ import astro from './assets/astro.jpg';
 class Samples extends React.Component {
     render() {
         return(
-          <div className="Center">
-            <img src={dew} alt="dew" />
-            <img src={golves} alt="golves" />
-            <img src={greenbay} alt="greenbay" />
-            <img src={astro} alt="astro" />
-            <img src={beanie} alt="beanie" />
-            <img src={hat} alt="hat" />
-            <img src={hat2} alt="hat2" />
-            <img src={CodGlasses} alt="CodGlasses" />
-            <img src={apple} alt="apple" />
-            <img src={beanie2} alt="beanie2" />
-            <img src={bird} alt="bird" />
-            <img src={usb} alt="usb" />
-            <img src={plush} alt="plush" />
-            <img src={play} alt="play" />
-            <img src={usb} alt="usb" />
-            <img src={rocket} alt="rocket" />
-            <img src={toy} alt="toy" />
-          </div>
+            <div>
+                <h2>Samples</h2>
+                 <div className="Center">
+                   <img src={dew} alt="dew" />
+                   <img src={golves} alt="golves" />
+                   <img src={greenbay} alt="greenbay" />
+                   <img src={astro} alt="astro" />
+                   <img src={beanie} alt="beanie" />
+                   <img src={hat} alt="hat" />
+                   <img src={hat2} alt="hat2" />
+                   <img src={CodGlasses} alt="CodGlasses" />
+                   <img src={apple} alt="apple" />
+                   <img src={beanie2} alt="beanie2" />
+                   <img src={bird} alt="bird" />
+                   <img src={usb} alt="usb" />
+                   <img src={plush} alt="plush" />
+                   <img src={play} alt="play" />
+                   <img src={usb} alt="usb" />
+                   <img src={rocket} alt="rocket" />
+                   <img src={toy} alt="toy" />
+                 </div>
+            </div>
         )
     }
 }
