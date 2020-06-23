@@ -1,8 +1,9 @@
 .Experience{
     display: flex;
     flex-direction: column;
-    background-color: #eaecf0;
-    width: 100%;
+    background-color: #f1f1f1;
+    padding:2.45rem 3rem;
+    border-top: 0.5rem solid #D6D08D;
 }
 
 .Summary,
@@ -15,47 +16,28 @@
 }
 
 .Experience h2{
-    color:#05386b;
-    margin: 1rem auto;
-    font-weight: 500;
+    color:rgb(81, 81, 97);
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-left: 0.7rem;
+    margin-bottom: 0;
 }
 
 .Experience p{
     display: flex;
-    margin: 0 auto;
-    color:#05386b;
+    margin: 0.7rem;
 }
 
-@media only screen and (min-width:300px){
-    .Experience p{
-      letter-spacing: 0;
-      font-size: 0.7rem;
-    }
-    .Experience h2{
-        font-size: 1rem;
-        letter-spacing: 0;
-    }
-    .Experience{
-        padding: 1rem;
-        margin: auto;
-    }
-  }
-  @media only screen and (min-width:768px){
-    .Experience p{
-      font-size: 1rem;
-      
-    }
-    .Experience{
-        padding: 2rem;
-    }
-    .Experience h2{
-        font-size: 2rem;
-      }
-  }
+.Address{
+    font-style: italic;
+    margin: 0;
+    color:#88BF88;
+}
 
-  @media only screen and (min-width:1024px){
-    .Experience{
-        padding: 7rem 4rem;
-    }
-  }
-    
+.Summary h2{
+    font-size: 2.5rem;
+}
+
+.Summary p{
+   margin-top: 2.5rem;
+}

@@ -1,11 +1,17 @@
 .Skills{
-    background-color: #081c42;
-    color:#f2eeb6;
-    width: 30%;
+    background-color: #515161;
+    color:#D6D08D;
+    width: 40%;
+    padding: 2rem;
+    border-top: 0.5rem solid #D6D08D;
 }
 
 .BarContainer {
     background-color: #8a98a7;
+    border-top-right-radius: 2rem;
+border-bottom-right-radius: 2rem;
+margin:0.1rem 0rem;
+   
 }
 
 .Adobe {
@@ -17,7 +23,11 @@
 }
 
 .Coding{
-    width: 30%;
+    width: 50%;
+}
+
+.Graphic {
+    width: 95%;
 }
 
 .Maya{
@@ -25,67 +35,31 @@
 }
 
 .Photography{
-    width: 70%;
+    width: 80%;
 }
 
 .Line {
-    height: 2rem;
-    background-color: #58db5edc;
-    margin: 3rem 0rem;
+    height: 1rem;
+    background-color: #8DD4D6;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
 }
 
 .Text{
-    color: #05386b;
+    color: #ececec;;
     width: 100%;
+    margin-top: 2.5rem;
+    margin-bottom: 0.3rem;
 }
 
 .Skills h2{
     text-align: center;
     font-size: 2rem;
-    margin-top: 3rem;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    font-weight: 600;
 }
 
-@media only screen and (min-width:300px){
-    .Skills h2{
-      letter-spacing: 0;
-      font-size: 1rem;
-      margin-top: 2rem;
-    }
-    .Text{
-        font-size: 0.5rem;
-        letter-spacing: 0;
-        padding-top: 0.15rem;
-        margin-left: 0.15rem;
-    }
-    .Line{
-        margin: 1rem 0;
-        height: 1rem;
-    }
-  }
-  @media only screen and (min-width:768px){
-    .Text{
-      font-size: 1rem;
-      padding-top: 0.4rem;
-      margin-left: 0.5rem;
-    }
-    .Skills h2{
-        font-size: 2rem;
-    }
-    .Skills{
-        padding: 1rem 2rem;
-    }
-    .Line{
-        margin: 1.5rem 0;
-        height: 1.5rem;
-    }
-  }
-
-  @media only screen and (min-width:1024px){
-    .Skills{
-        padding: 4rem;
-    }
-  }
-    
-    
+.Line:hover{
+    background-color:#88BF88;
+}

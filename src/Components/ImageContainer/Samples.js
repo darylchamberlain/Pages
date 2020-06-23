@@ -36,7 +36,7 @@ class Samples extends React.Component {
     render() {
         return(
             <div>
-                <h2>Samples</h2>
+                <h2>Product Design</h2>
                  <div className="Center">
                    <img src={dew} alt="dew" />
                    <img src={golves} alt="golves" />
@@ -52,7 +52,6 @@ class Samples extends React.Component {
                    <img src={usb} alt="usb" />
                    <img src={plush} alt="plush" />
                    <img src={play} alt="play" />
-                   <img src={usb} alt="usb" />
                    <img src={rocket} alt="rocket" />
                    <img src={toy} alt="toy" />
                  </div>

@@ -1,0 +1,46 @@
+
+.wrapper{
+  margin:1rem 0;
+}
+
+a,a:visited,a:hover,a:active{
+  -webkit-backface-visibility:hidden;
+          backface-visibility:hidden;
+	position:relative;
+  transition:0.5s color ease;
+	text-decoration:none;
+	color: #f1f1f1;
+	font-size:1.3rem;
+}
+a:hover{
+    color:#D6D08D;
+}
+a.before:before,a.after:after{
+  content: "";
+  transition:0.5s all ease;
+  -webkit-backface-visibility:hidden;
+          backface-visibility:hidden;
+  position:absolute;
+}
+a.before:before{
+  top:-0.25rem;
+}
+a.after:after{
+  bottom:-0.25rem;
+}
+a.before:before,a.after:after{
+  height:5px;
+  height:0.15rem;
+  width:0;
+  background:#88BF88;
+}
+a.first:after{
+  left:0;
+}
+a.second:after{
+  right:0;
+}
+
+a.before:hover:before,a.after:hover:after{
+  width:100%;
+}

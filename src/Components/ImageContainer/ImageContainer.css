@@ -14,7 +14,9 @@
 }
 
 .Container h2{
-    font-size: 3rem;
+    font-size: 4rem;
     text-align: center;
     margin: 10rem 0;
+    font-weight: lighter;
+    letter-spacing: 1rem;
 }
