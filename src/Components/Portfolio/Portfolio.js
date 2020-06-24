@@ -16,11 +16,14 @@ import Photoshop from '../ImageContainer/Photoshop';
 
 import Footer from '../Body/Footer/Footer';
 
+import Carousel from 'react-bootstrap/Carousel'
+
 class Portfolio extends React.Component {
     render(){
         return(
             <div>
                 <NavBar />
+                <Carousel />
                 <div className="Container">
                     <Samples />
                     <Photoshop />

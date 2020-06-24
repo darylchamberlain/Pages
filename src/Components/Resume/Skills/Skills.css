@@ -1,9 +1,8 @@
 .Skills{
     background-color: #515161;
-    color:#D6D08D;
+    color: #f1f1f1;;
     width: 40%;
     padding: 2rem;
-    border-top: 0.5rem solid #D6D08D;
 }
 
 .BarContainer {
@@ -11,6 +10,7 @@
     border-top-right-radius: 2rem;
 border-bottom-right-radius: 2rem;
 margin:0.1rem 0rem;
+overflow: hidden;
    
 }
 
@@ -48,8 +48,7 @@ margin:0.1rem 0rem;
 .Text{
     color: #ececec;;
     width: 100%;
-    margin-top: 2.5rem;
-    margin-bottom: 0.3rem;
+    margin: 1rem;
 }
 
 .Skills h2{
@@ -62,4 +61,14 @@ margin:0.1rem 0rem;
 
 .Line:hover{
     background-color:#88BF88;
+}
+
+.Skills img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.Icon{
+display: flex;
+align-items: center;
 }

@@ -3,7 +3,7 @@
     flex-direction: column;
     background-color: #f1f1f1;
     padding:2.45rem 3rem;
-    border-top: 0.5rem solid #D6D08D;
+   
 }
 
 .Summary,
@@ -31,7 +31,7 @@
 .Address{
     font-style: italic;
     margin: 0;
-    color:#88BF88;
+    color: #7cbcbe;
 }
 
 .Summary h2{

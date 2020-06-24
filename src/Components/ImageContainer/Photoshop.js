@@ -13,7 +13,7 @@ class Photoshop extends React.Component {
     render() {
         return(
             <div>
-                <h2>Photoshop</h2>
+                <h2 className="animate__animated animate__fadeInLeft">Photoshop</h2>
             <div className="Center">
                 <img src={bottle} alt="bottle" />
                 <img src={bag} alt="bag" />

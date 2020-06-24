@@ -2,7 +2,9 @@
     height: 20rem;
     background-size: cover;
     padding: 1rem 0rem;
-    background-color:#8DD4D6 ;
+    background-image: url('../../ImageContainer/assets/Background.jpg');
+    background-color:white ;
+    z-index: 0;
   }
 
   .Header h2{
