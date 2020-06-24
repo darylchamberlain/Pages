@@ -1,7 +1,5 @@
 import React from 'react';
 
-import Images from 'react-bootstrap';
-
 import golves from './assets/golves.jpg';
 
 import beanie from './assets/beanie.jpg';
@@ -40,22 +38,22 @@ class Samples extends React.Component {
             <div>
                 <h2 className="animate__animated animate__fadeInLeft">Product Design</h2>
                  <div className="Center">
-                   <img src={dew} alt="dew" fluid />
-                   <img src={golves} alt="golves" fluid />
-                   <img src={greenbay} alt="greenbay" fluid />
-                   <img src={astro} alt="astro" fluid />
-                   <img src={beanie} alt="beanie" fluid />
-                   <img src={hat} alt="hat" rounded />
-                   <img src={hat2} alt="hat2" rounded />
-                   <img src={CodGlasses} alt="CodGlasses" fluid />
-                   <img src={apple} alt="apple"fluid  />
-                   <img src={beanie2} alt="beanie2" fluid />
-                   <img src={bird} alt="bird"fluid  />
-                   <img src={usb} alt="usb"fluid  />
-                   <img src={plush} alt="plush" fluid />
-                   <img src={play} alt="play"fluid  />
-                   <img src={rocket} alt="rocket" fluid />
-                   <img src={toy} alt="toy"fluid  />
+                   <img src={dew} alt="dew"/>
+                   <img src={golves} alt="golves"  />
+                   <img src={greenbay} alt="greenbay"  />
+                   <img src={astro} alt="astro"  />
+                   <img src={beanie} alt="beanie"  />
+                   <img src={hat} alt="hat"  />
+                   <img src={hat2} alt="hat2"  />
+                   <img src={CodGlasses} alt="CodGlasses"  />
+                   <img src={apple} alt="apple"  />
+                   <img src={beanie2} alt="beanie2"  />
+                   <img src={bird} alt="bird"  />
+                   <img src={usb} alt="usb"  />
+                   <img src={plush} alt="plush"  />
+                   <img src={play} alt="play"/>
+                   <img src={rocket} alt="rocket" />
+                   <img src={toy} alt="toy" />
                  </div>
             </div>
         )
