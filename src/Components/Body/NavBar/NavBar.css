@@ -1,22 +1,57 @@
 .NavBar{
+  display: flex;
     background-color: #515161;
-    position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
-    height:4.2rem;
-    z-index: 3;
+    height:3rem;
+    z-index: 2;
+    align-items: center; 
+    margin: auto; 
 }
 
-.NavBar a{
-    float: right;
+.Links{
+    display: flex;
+    width: 20%;
+    
 }
 
 .Name{
-    float: left;
+   display: flex;
+   width: 80%;
 }
 
+@media only screen and (min-width: 300px){
+    .Links{
+      width: 100%;
+      justify-content: flex-end;
+    }
+    .Name{
+     display: none;
+    }  
+    a.wrapper.second.after{
+      margin: 1rem;
+    }
+  }
 
+  @media only screen and (min-width: 765px){
+    .Links{
+      margin: 0;
+      width: 40%;
+    }
+    .Name{
+      display: initial;
+        margin: 0;
+        width: 60%;
+    }
+  }
 
-
+  @media only screen and (min-width: 1023px){
+    .Links{
+      margin: 0;
+      width: 20%;
+    }
+    .Name{
+        margin: 1.25rem;
+        width: 100%;
+    }
+  }
 

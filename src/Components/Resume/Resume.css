@@ -1,5 +1,10 @@
 .Resume {
     display: flex;
-   
+    background-color: #f1f1f1
+}
+
+.ResumePage{
+    background-color: rgb(207, 207, 207);
+    height: 100%;
 }
 

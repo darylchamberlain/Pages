@@ -10,16 +10,19 @@ import Header from '../Body/Header/Header';
 
 import NavBar from '../Body/NavBar/NavBar';
 
+import Footer from '../Body/Footer/Footer'
+
 class Resume extends React.Component {
     render() {
         return (
-            <div> 
+            <div className="ResumePage"> 
                 <NavBar />
                 <Header />
                 <div className="Resume">
                     <Skills />
                     <Experience />
                 </div>
+                <Footer />
             </div>
         )
     }

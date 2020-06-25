@@ -72,3 +72,77 @@ overflow: hidden;
 display: flex;
 align-items: center;
 }
+
+@media only screen and (min-width: 300px){
+    .Skills{
+        padding: 0 0.5rem;
+    }
+    .Skills h2{
+        font-size: 0.9rem;
+        margin: 1rem;
+        letter-spacing:0;
+    }
+    .Line{
+        height: 0.15rem;
+    }
+    .Text{
+        display: none;
+    }
+    .Icon img{
+        width: 0.6rem;
+        margin: 0;
+    }
+    .BarContainer{
+        margin: 0;
+    }
+
+}
+
+@media only screen and (min-width: 765px){
+    .Text{
+        display: initial;
+    }
+    .Skills h2{
+        font-size: 2em;
+        margin: 1rem;
+    }
+    .Skills p{
+        font-size: 1rem;
+        margin: 0rem;
+    }
+    .Line{
+        height: 0.6rem;
+    }
+    .Skills{
+        padding: 2rem;
+    }
+    .BarContainer{
+        margin: 1.2rem 0;
+    }
+    .Icon img{
+        width: 1rem;
+    }
+}
+
+@media only screen and (min-width: 1023px){
+    .Skills{
+        max-width: 30rem;
+        padding: 4rem;
+    }
+    .Skills h2{
+        font-size: 3em;
+        margin-bottom: 4rem;
+        
+    }
+    .Icon img{
+        width: 1.5rem;
+        margin-right: 1rem;
+    }
+    .Skills p{
+        font-size: 1.3rem;
+    }
+    .Icon{
+        margin-top: 2rem;
+    }
+}
+

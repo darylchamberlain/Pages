@@ -3,11 +3,13 @@ html,
 #root {
   height: 100%;
   margin: 0;
+ 
 }
 
 html {
   font-size: 18px;
   font-family: 'Titillium Web', sans-serif;
+  
 }
 
 h2 {

@@ -1,13 +1,13 @@
 
 .wrapper{
-  margin: 1.5rem 2rem;
-  
+  margin: 0rem 2rem;
+  display: inline-flex;
 }
 
 a,
-a:visited,
-a:hover,
-a:active {
+a.visited,
+a.hover,
+a.active {
   -webkit-backface-visibility:hidden;
           backface-visibility:hidden;
 	position:relative;
@@ -15,10 +15,9 @@ a:active {
 	text-decoration:none;
 	color: #f1f1f1;
   font-size:1rem;
-  
 }
 
-a:hover{
+a.hover{
     color:#D6D08D;
 }
 
@@ -29,6 +28,7 @@ a.after:after {
   -webkit-backface-visibility:hidden;
           backface-visibility:hidden;
   position:absolute;
+  
 }
 
 a.before:before {
@@ -58,3 +58,39 @@ a.before:hover:before,
 a.after:hover:after {
   width:100%;
 }
+
+@media only screen and (min-width: 300px){
+  .wrapper{
+    margin-left: 0rem;
+  }  
+  a,
+a.visited,
+a.hover,
+a.active {
+  font-size: 0.8rem;
+}
+}
+
+@media only screen and (min-width: 765px){
+  .wrapper{
+    margin:  0rem 2rem;
+    
+  }  
+  .Daryl{
+    display: initial;
+  }
+}
+
+@media only screen and (min-width: 765px){
+  a,
+  a.visited,
+  a.hover,
+  a.active {
+    font-size: 1.2rem;
+    margin-right: 3rem;
+  }
+}
+
+
+
+

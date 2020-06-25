@@ -14,8 +14,8 @@ class Landing extends React.Component{
                 <NavBar />
                 <Goo />
                 <div className="Title animate__animated animate__fadeInLeft ">
-                    <h2>port</h2>
-                    <h2>folio</h2>
+                    <h2>PORT</h2>
+                    <h2>FOLIO</h2>
                 </div>
                
             </div>

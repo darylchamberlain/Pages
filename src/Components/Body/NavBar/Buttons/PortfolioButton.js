@@ -4,9 +4,9 @@ import './Button.css';
 class PortfolioButton extends React.Component {
 render(){
   return (
-    <div className="wrapper">
-      <a className="second after" href="www.#.com">Portfolio</a>
-    </div>
+   
+      <a className="wrapper second after" href="/Portfolio">Portfolio</a>
+    
   );
 }
 }

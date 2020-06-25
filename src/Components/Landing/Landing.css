@@ -3,6 +3,7 @@
     color: #f1f1f1;
     padding: 2rem;
     height: 100%;
+    
 }
 
 .Landing h2{
@@ -17,4 +18,42 @@
 
 .View{
 margin: 1.5rem;
+}
+
+@media only screen and (min-width: 300px){
+    .Landing{
+        padding-left: 0rem;
+    }
+    .Landing h2{
+        margin-left: 1rem;
+        font-size: 5rem;
+        line-height: 0.8; 
+        letter-spacing: 0;
+    }
+    .Title{
+        margin-top: 12rem;
+    
+    }
+}
+
+@media only screen and (min-width: 765px){
+    .Landing h2{
+        margin-left: 2rem;
+        font-size: 12rem; 
+    }
+    .Title{
+        margin-top: 20rem;
+        
+    }
+}
+
+@media only screen and (min-width: 1023px){
+    .Landing h2{
+        margin-left: 2rem;
+        font-size: 20rem; 
+    }
+    .Title{
+        margin-top: 20rem;
+        
+    }
 }

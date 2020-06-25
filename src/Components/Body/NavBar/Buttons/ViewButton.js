@@ -4,9 +4,9 @@ import './Button.css';
 class ViewButton extends React.Component {
 render(){
   return (
-    <div className="hvr-forward">
-      <a className="before" href="www.#.com">view work</a>
-    </div>
+  
+      <p className="hvr-forward before">view work</p>
+   
   );
 }
 }

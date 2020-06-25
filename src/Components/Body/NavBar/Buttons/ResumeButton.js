@@ -4,9 +4,9 @@ import './Button.css';
 class ResumeButton extends React.Component {
 render(){
   return (
-    <div className="wrapper">
-      <a className="second after" href="www.#.com" >Resume</a>
-    </div>
+    
+      <a className="wrapper second after" href="/Resume">Resume</a>
+  
   );
 }
 }
