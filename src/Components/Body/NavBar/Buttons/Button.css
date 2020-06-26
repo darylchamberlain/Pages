@@ -60,36 +60,66 @@ a.after:hover:after {
 }
 
 @media only screen and (min-width: 300px){
-  .wrapper{
-    margin-left: 0rem;
+  div.wrapper{
+    margin: 0rem;
   }  
   a,
 a.visited,
 a.hover,
 a.active {
-  font-size: 0.8rem;
+  font-size: 0.75rem;
+}
+a.wrapper.second.after{
+  margin: 0.5rem;
+}
+a.Home{
+  margin: 0.5rem;
 }
 }
 
-@media only screen and (min-width: 765px){
+@media only screen and (min-width: 700px){
   .wrapper{
-    margin:  0rem 2rem;
-    
+    margin:  0rem 1rem;
   }  
-  .Daryl{
-    display: initial;
-  }
-}
-
-@media only screen and (min-width: 765px){
   a,
   a.visited,
   a.hover,
   a.active {
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-right: 3rem;
   }
 }
+
+@media only screen and (min-width: 900px){
+  a,
+  a.visited,
+  a.hover,
+  a.active {
+    font-size: 1rem;
+    margin-right: 3rem;
+  }
+}
+
+@media only screen and (min-width: 1439px){
+  a,
+  a.visited,
+  a.hover,
+  a.active {
+    font-size: 1.25rem;
+    margin-right: 3rem;
+  }
+}
+
+@media only screen and (min-width: 2559px){
+  a,
+  a.visited,
+  a.hover,
+  a.active {
+    font-size: 1.5rem;
+    margin-right: 3rem;
+  }
+}
+
 
 
 

@@ -19,14 +19,33 @@
 .View{
 margin: 1.5rem;
 }
+div.Landing{
+    padding: 0;
+}
 
 @media only screen and (min-width: 300px){
     .Landing{
         padding-left: 0rem;
     }
     .Landing h2{
-        margin-left: 1rem;
+        margin-left: 0.5rem;
         font-size: 5rem;
+        line-height: 0.8; 
+        letter-spacing: 0;
+    }
+    .Title{
+        margin-top: 10rem;
+    
+    }
+}
+
+@media only screen and (min-width: 300px){
+    .Landing{
+        padding-left: 0rem;
+    }
+    .Landing h2{
+        margin-left: 0.5rem;
+        font-size: 6rem;
         line-height: 0.8; 
         letter-spacing: 0;
     }
@@ -38,16 +57,27 @@ margin: 1.5rem;
 
 @media only screen and (min-width: 765px){
     .Landing h2{
-        margin-left: 2rem;
-        font-size: 12rem; 
+        margin-left: 1rem;
+        font-size: 10rem; 
     }
     .Title{
-        margin-top: 20rem;
+        margin-top: 15rem;
         
     }
 }
 
 @media only screen and (min-width: 1023px){
+    .Landing h2{
+        margin-left: 2rem;
+        font-size: 13rem; 
+    }
+    .Title{
+        margin-top: 15rem;
+        
+    }
+}
+
+@media only screen and (min-width: 1440px){
     .Landing h2{
         margin-left: 2rem;
         font-size: 20rem; 

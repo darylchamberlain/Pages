@@ -5,9 +5,7 @@ class HomeButton extends React.Component {
 render(){
   return (
     <div className="wrapper">
-      <a className="Home" href="/Home">
-        <span className="Daryl">DarylChamberlain</span>
-      </a>
+      <a className="Home" href="/Home">Daryl Chamberlain</a>
     </div>
   );
 }

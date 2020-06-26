@@ -6,7 +6,7 @@ import beanie from './assets/beanie.jpg';
 
 import greenbay from './assets/greenbay.png';
 
-import CodGlasses from './assets/cod glasses.jpg';
+import cod from './assets/cod.jpg';
 
 import apple from './assets/apple.jpg';
 
@@ -45,7 +45,7 @@ class Samples extends React.Component {
                    <img src={beanie} alt="beanie"  />
                    <img src={hat} alt="hat"  />
                    <img src={hat2} alt="hat2"  />
-                   <img src={CodGlasses} alt="CodGlasses"  />
+                   <img src={cod} alt="CodGlasses"  />
                    <img src={apple} alt="apple"  />
                    <img src={beanie2} alt="beanie2"  />
                    <img src={bird} alt="bird"  />

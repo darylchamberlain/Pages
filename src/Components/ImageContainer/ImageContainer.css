@@ -16,7 +16,43 @@
 .Container h2{
     font-size: 4rem;
     text-align: center;
-    margin: 10rem 0;
+    margin: 2rem 0;
     font-weight: lighter;
     letter-spacing: 1rem;
+}
+
+.Center img{
+    min-width: 15rem;
+    margin: 1rem auto;
+}
+
+@media only screen and (min-width: 320px){
+    .Container h2{
+        font-size: 2rem;
+        letter-spacing: 0.2rem;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .Container h2{
+        font-size: 4rem;
+        letter-spacing: 00.5rem;
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .Container h2{
+        font-size: 4rem;
+        letter-spacing: 1rem;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+    .Center{
+        margin: 2rem;
+    }
+    .Center img{
+        max-width: 50rem;
+    }
 }

@@ -88,10 +88,32 @@
     }
     .Summary h2{
         font-size: 2rem;
+        margin-top: 0;
     }
 }
 
 @media only screen and (min-width: 1023px){
+    .Experience{
+        max-width: 80rem;
+        padding: 1rem;
+    }
+    .Summary h2{
+        font-size: 3rem;
+        margin-top: 1rem;
+    }
+    .Summary p{
+        margin-top: 3rem;
+    }
+
+    .Experience h2{
+        letter-spacing: 0.1rem;
+    }
+    .Address{
+        font-weight: bold;
+    }
+}
+
+@media only screen and (min-width: 1439px){
     .Experience{
         max-width: 60rem;
         padding: 4rem;
