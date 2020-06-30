@@ -14,8 +14,6 @@ import ScrollAnimation from 'react-animate-on-scroll';
 
 import "animate.css/animate.min.css";
 
-import Footer from '../Body/Footer/Footer';
-
 class Resume extends React.Component {
     render() {
         return (
