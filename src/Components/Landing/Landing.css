@@ -1,13 +1,11 @@
 .Landing {
     background-color: rgb(81, 81, 97);
     color: #f1f1f1;
-    padding: 2rem;
     height: 100%;
-    
 }
 
 .Landing h2{
-    margin: 0rem 0rem 0rem 1rem;
+    margin: 0rem;
     font-size: 10rem;
     line-height: 1.1;
 }
@@ -19,9 +17,12 @@
 .View{
 margin: 1.5rem;
 }
+
 div.Landing{
     padding: 0;
 }
+
+
 
 @media only screen and (min-width: 300px){
     .Landing{
@@ -80,10 +81,12 @@ div.Landing{
 @media only screen and (min-width: 1440px){
     .Landing h2{
         margin-left: 2rem;
-        font-size: 20rem; 
+        font-size: 15rem; 
+ 
     }
     .Title{
         margin-top: 20rem;
-        
+       
+       
     }
 }

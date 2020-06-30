@@ -22,28 +22,58 @@ import queen from './assets/queen.png'
 
 import umbrella from './assets/umbrella.png'
 
-import water from './assets/water.png'
-
 import tea from './assets/tea.png'
+
+import ScrollAnimation from 'react-animate-on-scroll';
+
+import "animate.css/animate.min.css";
+
 
 class Paintings extends React.Component {
     render() {
         return(
             <div>
-                <h2>Paintings</h2>
-                 <div className="Center">
-                   <img src={water} alt="water" />
-                   <img src={gator} alt="gator" />
-                   <img src={beach} alt="beach" />
-                   <img src={clean} alt="clean" />
-                   <img src={fan} alt="fan" />
-                   <img src={boat} alt="boat" />
-                   <img src={oldman} alt="oldman" />
-                   <img src={flower} alt="flower" />
-                   <img src={queen} alt="queen" />
-                   <img src={umbrella} alt="umbrella" />
-                   <img src={tea} alt="tea" />
-                   <img src={flag} alt="flag" />
+                <ScrollAnimation animateIn="fadeInRight">
+                   <h2> Paintings</h2>
+                </ScrollAnimation>
+            
+                <div className="Center">
+                    <ScrollAnimation animateIn="fadeInRight">
+                        <img src={gator} alt="gator" />
+                    </ScrollAnimation>
+
+                    <ScrollAnimation animateIn="fadeInRight">
+                        <img src={beach} alt="beach" />
+                    </ScrollAnimation>
+
+                    <ScrollAnimation animateIn="fadeInLeft">
+                        <img src={fan} alt="fan" />
+                    </ScrollAnimation>
+
+                    <ScrollAnimation animateIn="fadeInLeft">
+                        <img src={boat} alt="boat" />
+                    </ScrollAnimation>
+
+                    <ScrollAnimation animateIn="fadeInRight">
+                        <img src={oldman} alt="oldman" />
+                    </ScrollAnimation>
+
+                    <ScrollAnimation animateIn="fadeInRight">
+                        <img src={flower} alt="flower" />
+                    </ScrollAnimation>
+
+                    <ScrollAnimation animateIn="fadeInLeft">
+                        <img src={queen} alt="queen" />
+                    </ScrollAnimation>
+
+                    <ScrollAnimation animateIn="fadeInLeft">
+                        <img src={umbrella} alt="umbrella" />
+                    </ScrollAnimation>
+
+                    <ScrollAnimation animateIn="fadeInUp">
+                        <img src={tea} alt="tea" />
+                    </ScrollAnimation>
+
                  </div>
             </div>
         )

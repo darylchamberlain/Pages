@@ -16,19 +16,51 @@ import page from './assets/page.jpg';
 
 import vr from './assets/vr.jpg';
 
+import ScrollAnimation from 'react-animate-on-scroll';
+
+import "animate.css/animate.min.css";
+
+
+
 class Indesign extends React.Component {
     render() {
         return(
             <div>
-                <h2>Indesign</h2>
+
+                <ScrollAnimation animateIn="fadeInDown">
+                    <h2>Indesign</h2>
+                </ScrollAnimation> 
+               
                 <div className="Center">
-                  <img src={cooler} alt="cooler" />
-                  <img src={socks} alt="socks" />
-                  <img src={ski} alt="ski" />
-                  <img src={layout} alt="layout" />
-                  <img src={hats} alt="hats" />
-                  <img src={page} alt="page" />
-                  <img src={vr} alt="vr" />
+
+                    <ScrollAnimation animateIn="fadeInLeft">
+                        <img src={cooler} alt="cooler" />
+                    </ScrollAnimation> 
+            
+                    <ScrollAnimation animateIn="fadeInRight">
+                        <img src={socks} alt="socks" />
+                    </ScrollAnimation> 
+            
+                    <ScrollAnimation animateIn="fadeInRight">
+                        <img src={ski} alt="ski" />
+                    </ScrollAnimation> 
+                    
+                    <ScrollAnimation animateIn="fadeInLeft">
+                        <img src={layout} alt="layout" />
+                    </ScrollAnimation> 
+                      
+                    <ScrollAnimation animateIn="fadeInLeft">
+                        <img src={hats} alt="hats" />
+                    </ScrollAnimation> 
+            
+                    <ScrollAnimation animateIn="fadeInRight">
+                        <img src={page} alt="page" />
+                    </ScrollAnimation> 
+            
+                    <ScrollAnimation animateIn="fadeInUp">
+                        <img src={vr} alt="vr" />
+                    </ScrollAnimation> 
+                
                 </div>
             </div>
         )

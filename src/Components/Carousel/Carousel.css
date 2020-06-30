@@ -4,14 +4,10 @@
 
 .Carousel{
     background-color: rgb(43, 43, 43);
-    overflow: hidden;
-    height: 40rem;
 }
 
 .ButtonBack{
-    top: 26%;
-    left:25%;
-    background-image: url('./Components/ImageContainer/assets/chevron-back.svg');
+    background-image: url('../ImageContainer/assets/chevron-back.svg');
 background-repeat: no-repeat;
  background-position: center;
  background-size: unset;
@@ -20,9 +16,7 @@ background-repeat: no-repeat;
 }
 
 .ButtonNext{
-    top: 25%;
-    right: 28%; 
-    background-image: url('./Components/ImageContainer/assets/chevron-forward.svg');
+    background-image: url('../ImageContainer/assets/chevron-forward.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: unset;
@@ -46,110 +40,107 @@ button{
     border-radius: 3rem;
 }
 
+.Slider{
+    width: 200%;
+    left:-50%;
+    padding-top:5%;
+
+}
+
 
 @media only screen and (min-width:320px){
-    .Slider{
-        margin-top: 1rem;
-        width: 300%;
-        left:-100%
-    }
     .Carousel{
-        height: 18rem;
+        height: 12.5rem;
     }
     .ButtonNext{
         right: 5%;
-        top:35%;
+        top:28%;
     }
     .ButtonBack{
         left: 5%;
-        top:35%;
+        top:28%;
     }
 }
 @media only screen and (min-width:360px){
     .Carousel{
-        height: 21rem;
+        height: 14rem;
         margin-bottom: 2rem;
     }
     .ButtonNext{
         right: 5%;
-        top:35%;
+        top:25%;
     }
     .ButtonBack{
         left: 5%;
-        top:35%;
+        top:25%;
     }
 }
 
 @media only screen and (min-width:375px){
     .Carousel{
-        height: 22rem;
+        height: 15em;
         margin-bottom: 2rem;
+    }
+    .ButtonNext{
+        right: 8%;
+        top:25%;
+    }
+    .ButtonBack{
+        left: 8%;
+        top:25%;
     }
 }
 
 @media only screen and (min-width:411px){
     .Carousel{
-        height: 23rem;
+        height: 16rem;
         margin-bottom: 2rem;
     }
     .ButtonNext{
-        right: 5%;
-        top:34%;
+        right: 8%;
+        top:27%;
     }
     .ButtonBack{
-        left: 5%;
-        top:34%;
+        left: 8%;
+        top:27%;
     }
 }
 
 
 @media only screen and (min-width:768px){
-    .Slider{
-        margin-top: 5%;
-        width: 250%;
-        left:-75%
-    }
     .Carousel{
-        height: 36.5rem;
+        height: 30rem;
         margin-bottom: 4rem;
     }
     .ButtonNext{
-        right: 5%;
-        top:35%;
+        right: 10%;
+        top:30%;
     }
     .ButtonBack{
-        left: 5%;
-        top:35%;
+        left: 10%;
+        top:30%;
     }
 }
 
 
 @media only screen and (min-width:1024px){
-    .Slider{
-        margin-top: 3rem;
-        width: 250%;
-        left:-75%
-    }
     .Carousel{
-        height: 50rem;
-        margin-bottom: 5rem;
+        height: 40rem;
+        margin-bottom: 2rem;
     }
     .ButtonNext{
-        right: 5%;
-        top:35%;
+        right: 10%;
+        top:31%;
     }
     .ButtonBack{
-        left: 5%;
-        top:35%;
+        left:10%;
+        top:31%;
     }
 }
 
 
 
 @media only screen and (min-width:1440px){
-    .Slider{
-        margin-top: 2rem;
-    }
     .Carousel{
         height: 65rem;
     }
@@ -165,13 +156,8 @@ button{
 
 
 @media only screen and (min-width:2560px){
-    .Slider{
-        margin-top: 2rem;
-        width: 130%;
-        left:-15%
-    }
     .Carousel{
-        height: 60rem;
+        height: 80rem;
     }
     .ButtonNext{
         right: 25%;

@@ -4,17 +4,20 @@ import './App.css';
 
 import Landing from '../Landing/Landing';
 
+import ScrollAnimation from 'react-animate-on-scroll';
+
+import "animate.css/animate.min.css";
+
 function App() {
   return (
     <div className="App">
-          <Landing />
-          <a
-  className="App-link"
-  href="https://reactjs.org"
-  target="_blank"
-  rel="noopener noreferrer"
->
-</a>
+      <header className="App-header">
+       
+        <ScrollAnimation animateIn="fadeInLeft">
+        <Landing />
+        </ScrollAnimation>
+        
+      </header>
       </div>
   );
 }

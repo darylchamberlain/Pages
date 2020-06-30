@@ -1,8 +1,7 @@
 .Skills{
     background-color: #515161;
-    color: #f1f1f1;;
-    width: 40%;
-    padding: 2rem;
+    color: #f1f1f1;
+    height: 100%;
 }
 
 .BarContainer {
@@ -73,10 +72,10 @@ display: flex;
 align-items: center;
 }
 
-@media only screen and (min-width: 300px){
+@media only screen and (min-width: 320px){
     .Skills{
-        padding: 0 0.5rem;
-        width: 10rem;
+        padding: 0.5rem 0.5rem;
+        width: 5rem;
     }
     .Skills h2{
         font-size: 0.9rem;
@@ -84,7 +83,7 @@ align-items: center;
         letter-spacing:0;
     }
     .Line{
-        height: 0.15rem;
+        height: 0.2rem;
     }
     .Text{
         display: none;
@@ -99,24 +98,53 @@ align-items: center;
 
 }
 
-@media only screen and (min-width: 765px){
-    .Text{
-        display: initial;
+@media only screen and (min-width: 360px){
+    .Skills{
+        padding: 0.5rem 0.5rem;
+        width: 5rem;
     }
     .Skills h2{
+        font-size: 0.9rem;
+        margin: 1rem;
+        letter-spacing:0;
+    }
+    .Line{
+        height: 0.2rem;
+    }
+    .Text{
+        display: none;
+    }
+    .Icon img{
+        width: 0.6rem;
+        margin: 0;
+    }
+    .BarContainer{
+        margin: 0;
+    }
+
+}
+
+@media only screen and (min-width: 768px){
+    .Text{
+        display: inline;
+    }
+    .Skills h2{
+        padding: 0.8rem ;
         font-size: 2em;
         margin-top: 1rem;
     }
     .Skills p{
         font-size: 1rem;
-        margin: 0rem 0.5rem;
+        margin: 0.25rem 0.5rem;
     }
     .Line{
         height: 0.6rem;
     }
     .Skills{
-        padding: 1rem;
-        width: 70%;
+        padding-bottom: 5rem;
+        padding-right: 2rem;
+        padding-left: 2rem;
+        width: 10rem;
     }
     .BarContainer{
         margin: 1.2rem 0;
@@ -126,10 +154,10 @@ align-items: center;
     }
 }
 
-@media only screen and (min-width: 1023px){
+@media only screen and (min-width: 1024px){
     .Skills{
-        max-width: 20rem;
-        padding: 1rem;
+        width: 15rem;
+        padding: 2rem;
     }
     .Skills h2{
         font-size: 2.8em;
@@ -149,15 +177,15 @@ align-items: center;
     }
 }
 
-@media only screen and (min-width: 1439px){
+@media only screen and (min-width: 1440px){
     .Skills{
-        max-width: 20rem;
+        width: 20rem;
         padding: 4rem;
+        padding-bottom: 4rem;
+        height: 102%;
     }
     .Skills h2{
         font-size: 3em;
-        margin-bottom: 4rem;
-        
     }
     .Icon img{
         width: 1.5rem;

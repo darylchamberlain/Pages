@@ -10,7 +10,11 @@ import Header from '../Body/Header/Header';
 
 import NavBar from '../Body/NavBar/NavBar';
 
-import Footer from '../Body/Footer/Footer'
+import ScrollAnimation from 'react-animate-on-scroll';
+
+import "animate.css/animate.min.css";
+
+import Footer from '../Body/Footer/Footer';
 
 class Resume extends React.Component {
     render() {
@@ -19,10 +23,17 @@ class Resume extends React.Component {
                 <NavBar />
                 <Header />
                 <div className="Resume">
-                    <Skills />
-                    <Experience />
+
+                    <ScrollAnimation animateIn="fadeInLeft">
+                        <Skills />
+                    </ScrollAnimation>
+            
+                    <ScrollAnimation animateIn="fadeInRight">
+                        <Experience />
+                    </ScrollAnimation>
+                   
                 </div>
-                <Footer />
+             
             </div>
         )
     }

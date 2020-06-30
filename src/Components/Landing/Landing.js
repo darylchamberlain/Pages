@@ -1,10 +1,14 @@
 import React from 'react';
 
+import ScrollAnimation from 'react-animate-on-scroll';
+
+import "animate.css/animate.min.css";
+
 import './Landing.css';
 
 import NavBar from '../Body/NavBar/NavBar';
 
-import Goo from './Goo';
+import Goo from '../Goo/Goo';
 
 
 class Landing extends React.Component{
@@ -13,11 +17,11 @@ class Landing extends React.Component{
             <div className="Landing ">
                 <NavBar />
                 <Goo />
-                <div className="Title animate__animated animate__fadeInLeft ">
-                    <h2>PORT</h2>
+
+                <ScrollAnimation  className="Title" animateIn="fadeInLeft">
+                 <h2>PORT</h2>
                     <h2>FOLIO</h2>
-                </div>
-               
+                </ScrollAnimation>
             </div>
         )
     }

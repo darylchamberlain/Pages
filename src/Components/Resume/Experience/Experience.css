@@ -3,7 +3,7 @@
     flex-direction: column;
     background-color: #f1f1f1;
     padding:2.45rem 3rem;
-   
+    height: 100%;
 }
 
 .Summary,
@@ -42,9 +42,9 @@
    margin-top: 2.5rem;
 }
 
-@media only screen and (min-width: 300px){
+@media only screen and (min-width: 320px){
     .Experience{
-       padding: 0rem 0.25rem;
+       padding: 0.5rem 0rem;
     }
     .Experience h2{
         font-size: 0.8rem;
@@ -52,35 +52,57 @@
        letter-spacing:0;
     }
     .Experience p{
-        line-height:1.2;
+        line-height:0.75rem;
         font-size: 0.6rem;
-        letter-spacing:0;
     }
     .Summary p{
-        margin-top: 1rem;
+        margin-top: 0.5rem;
         font-size: 0.6rem;
-        line-height:1.3;
+        line-height:0.75rem;
     }
     .Summary h2{
         font-size: 0.9rem;
-        letter-spacing: 0;
         margin-top: 1rem;
     }
 }
 
-@media only screen and (min-width: 765px){
+@media only screen and (min-width: 360px){
     .Experience{
-       padding: 2rem;
+       padding: 0.5rem 0rem;
+    }
+    .Experience h2{
+        font-size: 0.8rem;
+        margin-top: 0rem;
+       letter-spacing:0;
+    }
+    .Experience p{
+        line-height:0.75rem;
+        font-size: 0.6rem;
+    }
+    .Summary p{
+        margin-top: 0.5rem;
+        font-size: 0.6rem;
+        line-height:0.75rem;
+    }
+    .Summary h2{
+        font-size: 0.9rem;
+        margin-top: 1rem;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .Experience{
+       padding: 1rem;
+       margin-top: 1rem;
     }
     .Experience h2{
         font-size: 1.5rem;
-        margin-top: 1rem;
-        letter-spacing: 1;
-        
+        margin-top: 0.5rem;
     }
     .Experience p{
-        margin-top: 1rem;
+        margin-top: 0.5rem;
         font-size: 1rem;
+        line-height: 1.3rem;
     }
     .Summary p{
         margin-top: 1rem;
@@ -92,11 +114,7 @@
     }
 }
 
-@media only screen and (min-width: 1023px){
-    .Experience{
-        max-width: 80rem;
-        padding: 1rem;
-    }
+@media only screen and (min-width: 1024px){
     .Summary h2{
         font-size: 3rem;
         margin-top: 1rem;
@@ -115,7 +133,7 @@
 
 @media only screen and (min-width: 1439px){
     .Experience{
-        max-width: 60rem;
+        width: 105rem;
         padding: 4rem;
     }
     .Summary h2{
@@ -124,6 +142,9 @@
 
     .Experience h2{
         letter-spacing: 0.25rem;
+    }
+    .Experience p{
+        width: 800px;
     }
     .Address{
         font-weight: bold;
