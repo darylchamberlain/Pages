@@ -4,11 +4,8 @@ import './ImageContainer.css';
 
 import beach from './assets/beach.jpg';
 
-import clean from './assets/clean.png';
-
 import fan from './assets/fan.png';
 
-import flag from './assets/flag.png';
 
 import boat from './assets/boat.png';
 
