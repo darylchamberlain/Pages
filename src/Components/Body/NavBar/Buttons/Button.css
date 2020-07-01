@@ -1,7 +1,8 @@
 
 .wrapper{
-  margin: 0rem 2rem;
-  display: inline-flex;
+  display: flex;
+  margin: 1rem;
+  justify-content: center;
 }
 
 a,
@@ -12,9 +13,8 @@ a.active {
           backface-visibility:hidden;
 	position:relative;
   transition:0.5s color ease;
-	text-decoration:none;
-	color: #f1f1f1;
-  font-size:1rem;
+  text-decoration: none !important;
+  color: #f1f1f1 !important;
 }
 
 a.hover{
@@ -58,69 +58,4 @@ a.before:hover:before,
 a.after:hover:after {
   width:100%;
 }
-
-@media only screen and (min-width: 300px){
-  div.wrapper{
-    margin: 0rem;
-  }  
-  a,
-a.visited,
-a.hover,
-a.active {
-  font-size: 0.75rem;
-}
-a.wrapper.second.after{
-  margin: 0.5rem;
-}
-a.Home{
-  margin: 0.5rem;
-}
-}
-
-@media only screen and (min-width: 700px){
-  .wrapper{
-    margin:  0rem 1rem;
-  }  
-  a,
-  a.visited,
-  a.hover,
-  a.active {
-    font-size: 1rem;
-    margin-right: 3rem;
-  }
-}
-
-@media only screen and (min-width: 900px){
-  a,
-  a.visited,
-  a.hover,
-  a.active {
-    font-size: 1rem;
-    margin-right: 3rem;
-  }
-}
-
-@media only screen and (min-width: 1439px){
-  a,
-  a.visited,
-  a.hover,
-  a.active {
-    font-size: 1.25rem;
-    margin-right: 3rem;
-  }
-}
-
-@media only screen and (min-width: 2559px){
-  a,
-  a.visited,
-  a.hover,
-  a.active {
-    font-size: 1.5rem;
-    margin-right: 3rem;
-  }
-}
-
-
-
-
 

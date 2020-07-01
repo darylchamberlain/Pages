@@ -68,14 +68,14 @@ body {
 .hooks-main > div:nth-child(3)::after {
   top: 100px;
   left: 100px;
-  width: 25px;
-  height: 25px;
+  width: 50px;
+  height: 50px;
 }
 
 .hooks-main {
   position: absolute;
   width: 100%;
-  height:90%;
+  height:100%;
   filter: url('#goo');
   overflow: hidden;
   margin: 0;

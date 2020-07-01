@@ -1,9 +1,13 @@
 import React from "react";
+
 import ReactDOM from "react-dom";
+
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import Home from "./Components/Home/Home";
+
 import Resume from "./Components/Resume/Resume";
+
 import Portfolio from './Components/Portfolio/Portfolio';
 
 import App from './Components/App/App';

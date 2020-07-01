@@ -1,5 +1,6 @@
 import React from 'react';
-import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-react-carousel';
+import '../Carousel/Carousel.css'
+import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext} from 'pure-react-carousel';
 import 'pure-react-carousel/dist/react-carousel.es.css';
 import apple from '../ImageContainer/assets/apple.jpg'
 import bag from '../ImageContainer/assets/bag.jpg'
@@ -28,17 +29,15 @@ import flag from '../ImageContainer/assets/flag.png'
 import gator from '../ImageContainer/assets/gator.png'
 
  
-
- 
 export default class extends React.Component {
   render() {
     return (
-      <div className="Size">
-      <CarouselProvider
+      <CarouselProvider 
+        className="Carousel"
         naturalSlideWidth={100}
-        naturalSlideHeight={125}
+        naturalSlideHeight={30}
         totalSlides={25}
-      >
+        >
         <Slider className="Slider">
           <Slide index={0}><img src={apple} alt="apple" /></Slide>
           <Slide index={1}><img src={bag} alt="bag" /></Slide>
@@ -66,13 +65,12 @@ export default class extends React.Component {
           <Slide index={23}><img src={flag} alt="flag"/></Slide>
           <Slide index={24}><img src={gator} alt="gator"/></Slide>
         </Slider>
-        <div className="CarouselButtons">
-        <ButtonBack className="ButtonBack"></ButtonBack>
-        <ButtonNext className="ButtonNext"></ButtonNext>
-        </div>
 
+        <div className="CarouselButtons">
+          <ButtonBack className="ButtonBack"></ButtonBack>
+          <ButtonNext className="ButtonNext"></ButtonNext>
+        </div>
       </CarouselProvider>
-      </div>
     );
   }
 }

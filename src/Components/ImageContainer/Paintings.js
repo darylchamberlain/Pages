@@ -6,7 +6,6 @@ import beach from './assets/beach.jpg';
 
 import fan from './assets/fan.png';
 
-
 import boat from './assets/boat.png';
 
 import gator from './assets/gator.png'

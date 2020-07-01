@@ -14,8 +14,6 @@ import Logos from '../ImageContainer/Logos';
 
 import Photoshop from '../ImageContainer/Photoshop';
 
-import Footer from '../Body/Footer/Footer';
-
 import CarouselProvider from '../Carousel/CarouselProvider'
 
 import '../Carousel/Carousel.css'
@@ -26,19 +24,15 @@ import "animate.css/animate.min.css";
 class Portfolio extends React.Component {
     render(){
         return( 
-            <div>
-                <NavBar />
-            <div className="Carousel" >
-                <CarouselProvider />
-            </div>
-            <div className="Container">
-                <Samples />
-                <Photoshop />
-                <Indesign />
-                <Logos />
-                <Paintings />
-            </div>
-                <Footer />
+            <div><NavBar />
+                    <CarouselProvider />
+                <div className="Container">
+                    <Samples />
+                    <Photoshop />
+                    <Indesign />
+                    <Logos />
+                    <Paintings />
+                </div>
             </div>
         )
     }
