@@ -54,22 +54,6 @@
         font-size: 5rem;
         letter-spacing: 0.5rem;
         margin: 10rem;
-        font-weight: 600;
-    }
-    .Center{
-        margin: 2rem;
-    }
-    .Center img{
-        max-width: 50rem;
-    }
-}
-
-@media only screen and (min-width: 2000px){
-    .Container h2{
-        font-size: 10rem;
-        letter-spacing: 1rem;
-        margin: 10rem;
-      
     }
     .Center{
         margin: 2rem;
