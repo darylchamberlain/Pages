@@ -24,8 +24,11 @@ import "animate.css/animate.min.css";
 class Portfolio extends React.Component {
     render(){
         return( 
-            <div><NavBar />
-                    <CarouselProvider />
+            <div>
+                <NavBar />
+                <div>
+                <CarouselProvider />
+                </div>
                 <div className="Container">
                     <Samples />
                     <Photoshop />
