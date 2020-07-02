@@ -14,11 +14,9 @@ import Logos from '../ImageContainer/Logos';
 
 import Photoshop from '../ImageContainer/Photoshop';
 
-import CarouselProvider from '../Carousel/CarouselProvider'
+import CarouselProvider from '../CarouselProvider'
 
 import "animate.css/animate.min.css";
-
-import 'pure-react-carousel/dist/react-carousel.es.css';
 
 
 class Portfolio extends React.Component {
