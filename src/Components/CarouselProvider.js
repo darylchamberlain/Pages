@@ -2,11 +2,7 @@ import React from 'react';
 
 import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext} from 'pure-react-carousel';
 
-
-
 import 'pure-react-carousel/dist/react-carousel.es.css';
-
-
 
 import apple      from './ImageContainer/assets/apple.jpg'
 import bag        from './ImageContainer/assets/bag.jpg'
