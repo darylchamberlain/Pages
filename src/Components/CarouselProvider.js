@@ -2,33 +2,37 @@ import React from 'react';
 
 import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext} from 'pure-react-carousel';
 
+import './Carousel.css'
+
 import 'pure-react-carousel/dist/react-carousel.es.css';
 
-import apple      from '../Components/ImageContainer/assets/apple.jpg'
-import bag        from '../Components/ImageContainer/assets/bag.jpg'
-import astro      from '../Components/ImageContainer/assets/astro.jpg'
-import bands      from '../Components/ImageContainer/assets/bands.jpg'
-import beanie     from '../Components/ImageContainer/assets/beanie.jpg'
-import beach      from '../Components/ImageContainer/assets/beach.jpg'
-import beanie2    from '../Components/ImageContainer/assets/beanie2.jpg'
-import bird       from '../Components/ImageContainer/assets/bird.jpg'
-import boat       from '../Components/ImageContainer/assets/boat.png'
-import bottle     from '../Components/ImageContainer/assets/bottle.jpg'
-import city       from '../Components/ImageContainer/assets/city.jpg'
-import dew        from '../Components/ImageContainer/assets/dew.png'
-import clean      from '../Components/ImageContainer/assets/clean.png'
-import cod        from '../Components/ImageContainer/assets/cod.jpg'
-import cooler     from '../Components/ImageContainer/assets/cooler.jpg'
-import gatoraide  from '../Components/ImageContainer/assets/gatoraide.png'
-import golves     from '../Components/ImageContainer/assets/golves.jpg' 
-import greenbay   from '../Components/ImageContainer/assets/greenbay.png' 
-import flower     from '../Components/ImageContainer/assets/flower.png'
-import fresh      from '../Components/ImageContainer/assets/fresh.jpg'
-import doug       from '../Components/ImageContainer/assets/doug.jpg'
-import fan        from '../Components/ImageContainer/assets/fan.png'
-import fan2       from '../Components/ImageContainer/assets/fan2.png'
-import flag       from '../Components/ImageContainer/assets/flag.png'
-import gator      from '../Components/ImageContainer/assets/gator.png'
+
+
+import apple      from './ImageContainer/assets/apple.jpg'
+import bag        from './ImageContainer/assets/bag.jpg'
+import astro      from './ImageContainer/assets/astro.jpg'
+import bands      from './ImageContainer/assets/bands.jpg'
+import beanie     from './ImageContainer/assets/beanie.jpg'
+import beach      from './ImageContainer/assets/beach.jpg'
+import beanie2    from './ImageContainer/assets/beanie2.jpg'
+import bird       from './ImageContainer/assets/bird.jpg'
+import boat       from './ImageContainer/assets/boat.png'
+import bottle     from './ImageContainer/assets/bottle.jpg'
+import city       from './ImageContainer/assets/city.jpg'
+import dew        from './ImageContainer/assets/dew.png'
+import clean      from './ImageContainer/assets/clean.png'
+import cod        from './ImageContainer/assets/cod.jpg'
+import cooler     from './ImageContainer/assets/cooler.jpg'
+import gatoraide  from './ImageContainer/assets/gatoraide.png'
+import golves     from './ImageContainer/assets/golves.jpg' 
+import greenbay   from './ImageContainer/assets/greenbay.png' 
+import flower     from './ImageContainer/assets/flower.png'
+import fresh      from './ImageContainer/assets/fresh.jpg'
+import doug       from './ImageContainer/assets/doug.jpg'
+import fan        from './ImageContainer/assets/fan.png'
+import fan2       from './ImageContainer/assets/fan2.png'
+import flag       from './ImageContainer/assets/flag.png'
+import gator      from './ImageContainer/assets/gator.png'
 
  
 export default class extends React.Component {

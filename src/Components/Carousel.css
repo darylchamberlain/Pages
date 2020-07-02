@@ -21,7 +21,7 @@
 .ButtonBack{
     top: 50%;
     left:10%;
-    background-image: url('../ImageContainer/assets/chevron-back.svg');
+    background-image: url('./ImageContainer/assets/chevron-back.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: unset;
@@ -32,7 +32,7 @@
 .ButtonNext{
     top: 50%;
     right:10%;
-    background-image: url('../ImageContainer/assets/chevron-forward.svg');
+    background-image: url('./ImageContainer/assets/chevron-forward.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: unset;
