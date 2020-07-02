@@ -16,9 +16,9 @@ import Photoshop from '../ImageContainer/Photoshop';
 
 import CarouselProvider from '../Carousel/CarouselProvider'
 
-import '../Carousel/Carousel.css'
-
 import "animate.css/animate.min.css";
+
+import 'pure-react-carousel/dist/react-carousel.es.css';
 
 
 class Portfolio extends React.Component {
