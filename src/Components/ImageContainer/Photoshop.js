@@ -32,18 +32,18 @@ class Photoshop extends React.Component {
                         </ScrollAnimation>
                     </Col> 
                 </Row> 
-                <Row className="Center">
-                    <Col xs={12} sm={6} md={6} xl={4} > 
+                <Row >
+                    <Col className="ColMargin" xs={12} sm={6} md={6} xl={4} > 
                         <ScrollAnimation animateIn="fadeInLeft">
                             <img src={bottle} alt="bottle" />
                         </ScrollAnimation> 
                     </Col>
-                    <Col xs={12} sm={6} md={6} xl={4} > 
+                    <Col className="ColMargin" xs={12} sm={6} md={6} xl={4} > 
                         <ScrollAnimation animateIn="fadeInRight">
                             <img src={bag} alt="bag" />
                         </ScrollAnimation> 
                     </Col> 
-                    <Col xs={12} sm={6} md={6} xl={4} > 
+                    <Col className="ColMargin" xs={12} sm={12} md={12} xl={4} > 
                         <ScrollAnimation animateIn="fadeInUp">
                             <img src={justice} alt="justice" />
                         </ScrollAnimation> 

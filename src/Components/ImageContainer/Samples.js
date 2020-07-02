@@ -50,105 +50,108 @@ class Samples extends React.Component {
         return(
             <Container className="Center" fluid>    
                 <Row>
-                    <Col xs sm md xl={12} > 
+                    <Col xs sm md lg={12} > 
                         <ScrollAnimation animateIn="fadeInUp">
                            <h2> Product Design</h2>
                         </ScrollAnimation>
                     </Col>
                 </Row>
                 <Row className="Center">
-                    <Col xs={12} sm={6} md={6} xl={4} > 
+                    <Col xs={0} sm={0} md={0} lg={1}></Col>
+                    <Col className="ColMargin" xs={12} sm={6} md={6} lg={3} > 
                          <ScrollAnimation animateIn="fadeInRight">
                             <img src={dew} alt="dew"/>
                         </ScrollAnimation> 
                     </Col>
-                    <Col xs={12} sm={6} md={6} xl={4} > 
+                    <Col className="ColMargin" xs={12} sm={6} md={6} lg={3} > 
                         <ScrollAnimation animateIn="fadeInRight">
                             <img src={golves} alt="golves"/>
                         </ScrollAnimation> 
                     </Col>
-                    <Col xs={12} sm={6} md={6} xl={4} > 
+                    <Col xs={0} sm={0} md={1} lg={0}></Col>
+                    <Col className="ColMargin" xs={12} sm={6} md={10}lg={3} > 
                         <ScrollAnimation animateIn="fadeInLeft">
                             <img src={greenbay} alt="greenbay"/>
                         </ScrollAnimation> 
                     </Col>
+                    <Col xs={0} sm={0} md={1} lg={1}></Col>
                 </Row>
                 <Row className="Center">
-                    <Col xs={12} sm={6} md={6} xl={4} > 
+                    <Col className="ColMargin" xs={12} sm={6} md={6} lg={3} > 
                         <ScrollAnimation animateIn="fadeInLeft">
                             <img src={astro} alt="astro"/>
                         </ScrollAnimation> 
                     </Col>
-                    <Col xs={12} sm={6} md={6} xl={4} > 
+                    <Col className="ColMargin" xs={12} sm={6} md={6} lg={3} > 
                         <ScrollAnimation animateIn="fadeInRight">
                             <img src={beanie} alt="beanie"/>
                         </ScrollAnimation>
                     </Col>
-                    <Col xs={12} sm={6} md={6} xl={4} > 
+                    <Col className="ColMargin" xs={12} sm={12} md={12} lg={3} > 
                         <ScrollAnimation animateIn="fadeInRight">                   
                             <img src={hat} alt="hat"/>
                         </ScrollAnimation> 
                     </Col>
                 </Row>
                 <Row className="Center">
-                    <Col xs={12} sm={6} md={6} xl={4} > 
+                    <Col xs={12} sm={6} md={6} lg={4} > 
                         <ScrollAnimation animateIn="fadeInLeft">
                             <img src={hat2} alt="hat2"/>
                         </ScrollAnimation> 
                     </Col>
-                    <Col xs={12} sm={6} md={6} xl={4} > 
+                    <Col xs={12} sm={12} md={6} lg={4} > 
                         <ScrollAnimation animateIn="fadeInLeft">
                             <img src={cod} alt="CodGlasses"/>
                         </ScrollAnimation> 
                     </Col>
-                    <Col xs={12} sm={12} md={6} xl={4} > 
+                    <Col xs={12} sm={12} md={12} lg={4} > 
                         <ScrollAnimation animateIn="fadeInRight">         
                             <img src={apple} alt="apple"/>
                         </ScrollAnimation>  
                     </Col>
                 </Row>
                 <Row className="Center">
-                    <Col xs={12} sm={12} md={6} xl={4} > 
+                    <Col className="ColMargin" xs={12} sm={12} md={6} lg={4} > 
                         <ScrollAnimation animateIn="fadeInRight">
                             <img src={beanie2} alt="beanie2"/>
                         </ScrollAnimation> 
                     </Col>
-                    <Col xs={12} sm={12} md={6} xl={4} > 
+                    <Col className="ColMargin" xs={12} sm={12} md={6} lg={4} > 
                         <ScrollAnimation animateIn="fadeInLeft">
                             <img src={bird} alt="bird"/>
                         </ScrollAnimation> 
                     </Col>
-                    <Col xs={12} sm={12} md={6} xl={4} > 
-                        <ScrollAnimation animateIn="fadeInRight">                            
-                            <img src={usb} alt="usb"/>
+                    <Col className="ColMargin" xs={12} sm={12} md={12} lg={4} > 
+                        <ScrollAnimation animateIn="fadeInRight"> 
+                            <img src={toy} alt="toy" />                           
                         </ScrollAnimation>
                     </Col>  
                 </Row>
                 <Row className="Center">
-                    <Col xs={12} sm={12} md={6} xl={4} >
+                    <Col className="ColMargin" xs={12} sm={12} md={6} lg={3} >
                         <ScrollAnimation animateIn="fadeInDown">         
-                            <img src={toy} alt="toy" />
+                            <img src={usb} alt="usb"/>
                         </ScrollAnimation>  
                     </Col>
-                    <Col xs={12} sm={12} md={6} xl={4} > 
+                    <Col className="ColMargin" xs={12} sm={12} md={6} lg={3} > 
                         <ScrollAnimation animateIn="fadeInDown">
                             <img src={rocket} alt="rocket"/>
                         </ScrollAnimation> 
                     </Col>
-                    <Col xs={12} sm={12} md={6} xl={4} > 
+                    <Col className="ColMargin" xs={12} sm={12} md={12} lg={3} > 
                         <ScrollAnimation animateIn="fadeInUp">                 
                             <img src={play} alt="play"/>
                         </ScrollAnimation> 
                     </Col>
                 </Row>
                 <Row className="Center">
-                    <Col xs={12} sm={12} md={3} xl={3}></Col>
-                    <Col xs={12} sm={12} md={6} xl={6} > 
+                    <Col xs={12} sm={12} md={1} lg={3}></Col>
+                    <Col xs={12} sm={12} md={10} lg={6} > 
                         <ScrollAnimation animateIn="fadeInUp">                    
                             <img src={plush} alt="plush"/>
                         </ScrollAnimation>  
                     </Col>
-                    <Col xs={12} sm={12} md={6} xl={3}></Col>
+                    <Col xs={12} sm={12} md={1} lg={3}></Col>
                 </Row>
             </Container>
         )

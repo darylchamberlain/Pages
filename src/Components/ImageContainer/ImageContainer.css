@@ -1,5 +1,5 @@
 .Center{
-  margin: 5rem;
+  margin: 5rem 0rem;
 }
 
 .Container h2{
@@ -15,4 +15,12 @@
         margin: 0;
         letter-spacing: 0.5rem;
       }
+}
+
+@media only screen and (min-width:765px){
+    .Container h2{
+      margin: 0;
+      letter-spacing: 1rem;
+      font-size: 3rem;
+    }
 }

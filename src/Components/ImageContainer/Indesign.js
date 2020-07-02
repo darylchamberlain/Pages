@@ -42,17 +42,21 @@ class Indesign extends React.Component {
                     </Col>    
                 </Row>
                 <Row className="Center">
-                    <Col xs={12} sm={6} md={6} xl={4} > 
+
+                    <Col xs={0} sm={0} md={0} lg={2}></Col>
+                    <Col xs={12} sm={6} md={12} xl={8} > 
+                        <ScrollAnimation animateIn="fadeInRight">
+                            <img src={socks} alt="socks" />
+                        </ScrollAnimation> 
+                    </Col> 
+                    <Col xs={0} sm={0} md={0} lg={2}></Col> 
+
+                    <Col xs={12} sm={6} md={6} xl={6} > 
                         <ScrollAnimation animateIn="fadeInLeft">
                             <img src={cooler} alt="cooler" />
                         </ScrollAnimation> 
                     </Col>  
-                    <Col xs={12} sm={6} md={6} xl={4} > 
-                        <ScrollAnimation animateIn="fadeInRight">
-                            <img src={socks} alt="socks" />
-                        </ScrollAnimation> 
-                    </Col>  
-                    <Col xs={12} sm={6} md={6} xl={4} > 
+                    <Col xs={12} sm={12} md={6} xl={6} > 
                         <ScrollAnimation animateIn="fadeInRight">
                             <img src={ski} alt="ski" />
                         </ScrollAnimation> 
@@ -66,14 +70,15 @@ class Indesign extends React.Component {
                     </Col>
                     <Col xs={12} sm={6} md={6} xl={6} >      
                         <ScrollAnimation animateIn="fadeInLeft">
-                            <img src={hats} alt="hats" />
+                        <img src={page} alt="page" />
+                           
                         </ScrollAnimation> 
                     </Col>  
                 </Row> 
                 <Row className="Center"> 
                     <Col xs={12} sm={6} md={6} xl={6} > 
                         <ScrollAnimation animateIn="fadeInRight">
-                            <img src={page} alt="page" />
+                        <img src={hats} alt="hats" /> 
                         </ScrollAnimation> 
                     </Col>  
                     <Col xs={12} sm={6} md={6} xl={6} > 

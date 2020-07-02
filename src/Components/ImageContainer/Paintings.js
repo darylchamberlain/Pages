@@ -45,16 +45,11 @@ class Paintings extends React.Component {
                         </Col>
                     </Row>
                 <Row className="Center">
-                    <Col xs={12} sm={6} md={6} xl={3} > 
+                    <Col xs={12} sm={6} md={12} xl={3} > 
                         <ScrollAnimation animateIn="fadeInRight">
                             <img src={gator} alt="gator" />
                         </ScrollAnimation>
                     </Col>  
-                    <Col xs={12} sm={6} md={6} xl={3} >
-                        <ScrollAnimation animateIn="fadeInRight">
-                            <img src={beach} alt="beach" />
-                        </ScrollAnimation>
-                    </Col>
                     <Col xs={12} sm={6} md={6} xl={3} >
                         <ScrollAnimation animateIn="fadeInLeft">
                             <img src={fan} alt="fan" />
@@ -65,34 +60,41 @@ class Paintings extends React.Component {
                             <img src={boat} alt="boat" />
                         </ScrollAnimation>
                     </Col>
-                </Row>
-                <Row className="Center">
-                    <Col xs={12} sm={6} md={6} xl={3} >
+                    <Col className="ColMargin" xs={12} sm={6} md={12} xl={3} >
                         <ScrollAnimation animateIn="fadeInRight">
-                            <img src={oldman} alt="oldman" />
+                            <img src={beach} alt="beach" />
                         </ScrollAnimation>
                     </Col>
-                    <Col xs={12} sm={6} md={6} xl={3} >
+                </Row>
+                <Row className="Center">
+                    <Col xs={12} sm={6} md={4} xl={4} >
                         <ScrollAnimation animateIn="fadeInRight">
                             <img src={flower} alt="flower" />
                         </ScrollAnimation>
                     </Col>
-                    <Col xs={12} sm={6} md={6} xl={3} >
+                    <Col xs={12} sm={6} md={4} xl={4} >
                         <ScrollAnimation animateIn="fadeInLeft">
                             <img src={queen} alt="queen" />
                         </ScrollAnimation>
                     </Col>
-                    <Col xs={12} sm={6} md={6} xl={3} >
+                    <Col xs={12} sm={6} md={4} xl={4} >
                         <ScrollAnimation animateIn="fadeInLeft">
                             <img src={umbrella} alt="umbrella" />
                         </ScrollAnimation>
                     </Col>
-                    <Col xs={12} sm={6} md={6} xl={3} >
+                    </Row>
+                <Row>
+                    <Col xs={12} sm={12} md={6} xl={6} >
+                        <ScrollAnimation animateIn="fadeInRight">
+                            <img src={oldman} alt="oldman" />
+                        </ScrollAnimation>
+                    </Col>
+                    <Col xs={12} sm={12} md={6} lg={6} >
                         <ScrollAnimation animateIn="fadeInUp">
                             <img src={tea} alt="tea" />
                         </ScrollAnimation>
                     </Col>
-                </Row >
+                </Row>
             </Container>
         )
     }

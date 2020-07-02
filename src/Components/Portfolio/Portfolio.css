@@ -1,4 +1,4 @@
-Img {
+img {
     width: 100%;
 }
 
@@ -12,9 +12,14 @@ Img {
     margin: auto;
 }
 
-.Slider{
+.ColMargin{
+    margin: 2rem auto;
+}
+
+
+.Slide img{
     background-color: rgb(59, 59, 59);
-     
+    margin: 2rem;
 }
 
 .ButtonBack{

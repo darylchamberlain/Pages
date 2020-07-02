@@ -37,19 +37,19 @@ class Logos extends React.Component {
                     </Col>
                 </Row> 
                 <Row className="Center">
-                    <Col xs={12} sm={6} md={6} xl={4} > 
+                    <Col className="ColMargin" xs={12} sm={6} md={12} xl={4} > 
+                        <ScrollAnimation animateIn="fadeInLeft">     
+                            <img src={team2} alt="team2" />
+                        </ScrollAnimation> 
+                    </Col>
+                    <Col className="ColMargin" xs={12} sm={6} md={6} xl={4} > 
                         <ScrollAnimation animateIn="fadeInLeft">
                             <img src={doug} alt="doug" />
                         </ScrollAnimation> 
-                    </Col>
-                    <Col xs={12} sm={6} md={6} xl={4} > 
-                        <ScrollAnimation animateIn="fadeInLeft">            
-                            <img src={team} alt="team" />
-                        </ScrollAnimation> 
-                    </Col>
-                    <Col xs={12} sm={6} md={6} xl={4} > 
+                    </Col>       
+                    <Col className="ColMargin" xs={12} sm={12} md={6} xl={4} > 
                         <ScrollAnimation animateIn="fadeInRight">
-                            <img src={team2} alt="team2" />
+                            <img src={team} alt="team" />
                         </ScrollAnimation> 
                     </Col>
                 </Row> 
