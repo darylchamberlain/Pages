@@ -2,8 +2,6 @@ import React from 'react';
 
 import './Portfolio.css';
 
-import '../Carousel.css'
-
 import NavBar from '../Body/NavBar/NavBar';
 
 import Paintings from '../ImageContainer/Paintings';
