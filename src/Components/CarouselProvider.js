@@ -37,7 +37,7 @@ export default class extends React.Component {
       <CarouselProvider 
         className="Carousel"
         naturalSlideWidth={100}
-        naturalSlideHeight={30}
+        naturalSlideHeight={50}
         totalSlides={25}
         >
         <Slider className="Slider">

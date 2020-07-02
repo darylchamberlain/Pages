@@ -1,7 +1,7 @@
 Img {
     display: inline-flex;
     margin: 2rem;
-    max-width: 30%;
+    max-width: 50%;
     margin: 0 auto;
 
 }
@@ -17,9 +17,6 @@ Img {
 }
 
 .Slider{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     background-color: rgb(59, 59, 59);
     padding: 2rem;
     
@@ -28,7 +25,7 @@ Img {
 
 .ButtonBack{
     top: 50%;
-    left:10%;
+    left:15%;
     background-image: url('../ImageContainer/assets/chevron-back.svg');
     background-repeat: no-repeat;
     background-position: center;
@@ -39,7 +36,7 @@ Img {
 
 .ButtonNext{
     top: 50%;
-    right:10%;
+    right:15%;
     background-image: url('../ImageContainer/assets/chevron-forward.svg');
     background-repeat: no-repeat;
     background-position: center;
