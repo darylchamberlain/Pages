@@ -24,54 +24,76 @@ import ScrollAnimation from 'react-animate-on-scroll';
 
 import "animate.css/animate.min.css";
 
+import Container from 'react-bootstrap/Container'
+
+import Col from 'react-bootstrap/Col'
+
+import Row from 'react-bootstrap/Row'
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 class Paintings extends React.Component {
     render() {
         return(
-            <div>
-                <ScrollAnimation animateIn="fadeInRight">
-                   <h2> Paintings</h2>
-                </ScrollAnimation>
-            
-                <div className="Center">
-                    <ScrollAnimation animateIn="fadeInRight">
-                        <img src={gator} alt="gator" />
-                    </ScrollAnimation>
-
-                    <ScrollAnimation animateIn="fadeInRight">
-                        <img src={beach} alt="beach" />
-                    </ScrollAnimation>
-
-                    <ScrollAnimation animateIn="fadeInLeft">
-                        <img src={fan} alt="fan" />
-                    </ScrollAnimation>
-
-                    <ScrollAnimation animateIn="fadeInLeft">
-                        <img src={boat} alt="boat" />
-                    </ScrollAnimation>
-
-                    <ScrollAnimation animateIn="fadeInRight">
-                        <img src={oldman} alt="oldman" />
-                    </ScrollAnimation>
-
-                    <ScrollAnimation animateIn="fadeInRight">
-                        <img src={flower} alt="flower" />
-                    </ScrollAnimation>
-
-                    <ScrollAnimation animateIn="fadeInLeft">
-                        <img src={queen} alt="queen" />
-                    </ScrollAnimation>
-
-                    <ScrollAnimation animateIn="fadeInLeft">
-                        <img src={umbrella} alt="umbrella" />
-                    </ScrollAnimation>
-
-                    <ScrollAnimation animateIn="fadeInUp">
-                        <img src={tea} alt="tea" />
-                    </ScrollAnimation>
-
-                 </div>
-            </div>
+            <Container className="Center" fluid> 
+                <Row>
+                    <Col xs sm md xl={12} > 
+                        <ScrollAnimation animateIn="fadeInRight">
+                           <h2> Paintings</h2>
+                        </ScrollAnimation>
+                        </Col>
+                    </Row>
+                <Row className="Center">
+                    <Col xs={12} sm={6} md={6} xl={3} > 
+                        <ScrollAnimation animateIn="fadeInRight">
+                            <img src={gator} alt="gator" />
+                        </ScrollAnimation>
+                    </Col>  
+                    <Col xs={12} sm={6} md={6} xl={3} >
+                        <ScrollAnimation animateIn="fadeInRight">
+                            <img src={beach} alt="beach" />
+                        </ScrollAnimation>
+                    </Col>
+                    <Col xs={12} sm={6} md={6} xl={3} >
+                        <ScrollAnimation animateIn="fadeInLeft">
+                            <img src={fan} alt="fan" />
+                        </ScrollAnimation>
+                    </Col>
+                    <Col xs={12} sm={6} md={6} xl={3} >
+                        <ScrollAnimation animateIn="fadeInLeft">
+                            <img src={boat} alt="boat" />
+                        </ScrollAnimation>
+                    </Col>
+                </Row>
+                <Row className="Center">
+                    <Col xs={12} sm={6} md={6} xl={3} >
+                        <ScrollAnimation animateIn="fadeInRight">
+                            <img src={oldman} alt="oldman" />
+                        </ScrollAnimation>
+                    </Col>
+                    <Col xs={12} sm={6} md={6} xl={3} >
+                        <ScrollAnimation animateIn="fadeInRight">
+                            <img src={flower} alt="flower" />
+                        </ScrollAnimation>
+                    </Col>
+                    <Col xs={12} sm={6} md={6} xl={3} >
+                        <ScrollAnimation animateIn="fadeInLeft">
+                            <img src={queen} alt="queen" />
+                        </ScrollAnimation>
+                    </Col>
+                    <Col xs={12} sm={6} md={6} xl={3} >
+                        <ScrollAnimation animateIn="fadeInLeft">
+                            <img src={umbrella} alt="umbrella" />
+                        </ScrollAnimation>
+                    </Col>
+                    <Col xs={12} sm={6} md={6} xl={3} >
+                        <ScrollAnimation animateIn="fadeInUp">
+                            <img src={tea} alt="tea" />
+                        </ScrollAnimation>
+                    </Col>
+                </Row >
+            </Container>
         )
     }
 }

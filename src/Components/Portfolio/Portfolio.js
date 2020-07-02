@@ -25,7 +25,7 @@ class Portfolio extends React.Component {
         return( 
             <div>
                 <NavBar />
-                <div>
+                <div className="CarouselWrapper">
                 <CarouselProvider />
                 </div>
                 <div className="Container">

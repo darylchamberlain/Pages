@@ -1,9 +1,5 @@
 Img {
-    display: inline-flex;
-    margin: 2rem;
-    max-width: 50%;
-    margin: 0 auto;
-
+    width: 100%;
 }
 
 .Container{
@@ -12,36 +8,37 @@ Img {
 
 .Carousel{
     text-align: center;
-    overflow: hidden;
-    
+    width: 60%;
+    margin: auto;
 }
 
 .Slider{
     background-color: rgb(59, 59, 59);
-    padding: 2rem;
-    
+     
 }
-
 
 .ButtonBack{
     top: 50%;
-    left:15%;
+    right:105%;
     background-image: url('../ImageContainer/assets/chevron-back.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: unset;
     height: 2rem;
-
+    border-radius: 5rem;
+    background-color:rgba(43, 43, 43, 1);
 }
 
 .ButtonNext{
     top: 50%;
-    right:15%;
+    left:105%;
     background-image: url('../ImageContainer/assets/chevron-forward.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: unset;
     height: 2rem;
+    border-radius: 5rem;
+    background-color:rgba(43, 43, 43, 1);
 }
 
 .ButtonBack:hover,
