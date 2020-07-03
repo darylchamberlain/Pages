@@ -1,6 +1,7 @@
 .Skills{
     background-color: #f1f1f1;
     color: #515161;
+    
 }
 
 .RowBackgroundColor{
@@ -90,6 +91,7 @@
     .Skills{
         padding: 0 4%;
         margin-top: 8.7em;
+        margin-bottom: 40%;
     }
     .Text{
         display: inline;
@@ -111,6 +113,10 @@
 }
 
 @media only screen and (min-width: 1024px){
+    .Skills{
+        padding: 4%;
+        margin-bottom: 30%;
+    }
     .Skills h2{
         font-size: 2rem;
         margin-top: 3rem;
@@ -128,6 +134,7 @@
 @media only screen and (min-width: 2000px){
     .Skills{
         padding: 4.5%;
+        margin-bottom: 40%;
     }
     .Skills h2{
         font-size: 2rem;

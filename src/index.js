@@ -12,6 +12,8 @@ import Portfolio from './Components/Portfolio/Portfolio';
 
 import App from './Components/App/App';
 
+import Contact from './Components/Contact/Contact'
+
  const rootElement = document.getElementById("root");
  ReactDOM.render(
    <BrowserRouter>
@@ -19,7 +21,9 @@ import App from './Components/App/App';
     <Route exact path="/" component={App} />
      <Route path="/Resume" component={Resume} />
      <Route path="/Portfolio" component={Portfolio} />
+     <Route path="/Contact" component={Contact} />
      <Route path="/Home" component={Home} />
+     
    </Switch>
    </BrowserRouter>,
    rootElement

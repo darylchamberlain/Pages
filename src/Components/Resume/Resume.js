@@ -42,7 +42,9 @@ class Resume extends React.Component {
                     </Col>
                     <Col xs={0} sm={0} md={0} lg={0} xl={1}></Col>
                     <Col className="RightColumn" xs={0} sm={0} md={0} lg={0} xl={2}></Col>
+                    
                     </Row>
+                   
                 </Container>
              
             </div>

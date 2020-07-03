@@ -8,6 +8,8 @@ import PortfolioButton from '../NavBar/Buttons/PortfolioButton';
 
 import HomeButton from '../NavBar/Buttons/HomeButton'
 
+import ContactButton from '../NavBar/Buttons/ContactButton'
+
 import Container from 'react-bootstrap/Container'
 
 import Row from 'react-bootstrap/Row'
@@ -21,7 +23,7 @@ class NavBar extends React.Component{
         return (
             <Container fluid>
                 <Row>
-                    <Col className="NavBar" xs={4} md={6} lg={8} xl={10}> 
+                    <Col className="NavBar" xs={4} md={6} lg={8} xl={9}> 
                         <HomeButton />
                     </Col>
                     <Col className="NavBar" xs={4} md={3} lg={2} xl={1}>
@@ -29,6 +31,9 @@ class NavBar extends React.Component{
                     </Col>
                     <Col className="NavBar" xs={4} md={3} lg={2} xl={1}>
                         <ResumeButton /> 
+                    </Col>
+                    <Col className="NavBar" xs={4} md={3} lg={2} xl={1}>
+                        <ContactButton /> 
                     </Col>
                 </Row>
             </Container>
