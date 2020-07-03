@@ -1,16 +1,18 @@
 .Skills{
-    background-color: #515161;
-    color: #f1f1f1;
-    height: 100%;
+    background-color: #f1f1f1;
+    color: #515161;
+}
+
+.RowBackgroundColor{
+    background-color: #f1f1f1;
 }
 
 .BarContainer {
     background-color: #8a98a7;
     border-top-right-radius: 2rem;
-border-bottom-right-radius: 2rem;
-margin:0.1rem 0rem;
-overflow: hidden;
-   
+    border-bottom-right-radius: 2rem;
+    margin:0.2rem 0rem;
+    overflow: hidden;
 }
 
 .Adobe {
@@ -45,17 +47,12 @@ overflow: hidden;
 }
 
 .Text{
-    color: #ececec;;
-    width: 100%;
-    margin: 1rem;
+    color: #515161;
 }
 
 .Skills h2{
     text-align: center;
-    font-size: 2rem;
-    margin-top: 2rem;
-    margin-bottom: 4rem;
-    font-weight: 600;
+    font-weight: bold
 }
 
 .Line:hover{
@@ -68,19 +65,15 @@ overflow: hidden;
 }
 
 .Icon{
-display: flex;
-align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 @media only screen and (min-width: 320px){
-    .Skills{
-        padding: 0.5rem 0.5rem;
-        width: 5rem;
-    }
     .Skills h2{
-        font-size: 0.9rem;
-        margin: 1rem;
-        letter-spacing:0;
+        font-size: 1rem;
+        letter-spacing: 0;
+        margin-top: 2rem;
     }
     .Line{
         height: 0.2rem;
@@ -89,112 +82,62 @@ align-items: center;
         display: none;
     }
     .Icon img{
-        width: 0.6rem;
-        margin: 0;
+        width: 0.8rem;
+        margin: 0.415rem;
     }
-    .BarContainer{
-        margin: 0;
-    }
-
-}
-
-@media only screen and (min-width: 360px){
-    .Skills{
-        padding: 0.5rem 0.5rem;
-        width: 5rem;
-    }
-    .Skills h2{
-        font-size: 0.9rem;
-        margin: 1rem;
-        letter-spacing:0;
-    }
-    .Line{
-        height: 0.2rem;
-    }
-    .Text{
-        display: none;
-    }
-    .Icon img{
-        width: 0.6rem;
-        margin: 0;
-    }
-    .BarContainer{
-        margin: 0;
-    }
-
 }
 
 @media only screen and (min-width: 768px){
+    .Skills h2{
+        font-size: 2rem;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+    }
     .Text{
         display: inline;
     }
-    .Skills h2{
-        padding: 0.8rem ;
-        font-size: 2em;
-        margin-top: 1rem;
-    }
     .Skills p{
         font-size: 1rem;
-        margin: 0.25rem 0.5rem;
+        margin: 0rem 0.5rem;
     }
     .Line{
         height: 0.6rem;
     }
-    .Skills{
-        padding-bottom: 5rem;
-        padding-right: 2rem;
-        padding-left: 2rem;
-        width: 10rem;
-    }
     .BarContainer{
-        margin: 1.2rem 0;
+        margin: 0.9rem 0rem;
     }
     .Icon img{
         width: 1rem;
+        margin: 0.2rem;
     }
 }
 
 @media only screen and (min-width: 1024px){
-    .Skills{
-        width: 15rem;
-        padding: 2rem;
-    }
     .Skills h2{
-        font-size: 2.8em;
+        font-size: 2rem;
+        margin-top: 3rem;
         margin-bottom: 3rem;
-        letter-spacing:0.1rem;
-        
     }
     .Icon img{
         width: 1.5rem;
-        margin-right: 1rem;
+        margin-right: 0.75rem;
     }
-    .Skills p{
-        font-size: 1.3rem;
-    }
-    .Icon{
-        margin-top: 2rem;
+    .BarContainer{
+        margin: 1.4rem 0rem;
     }
 }
 
-@media only screen and (min-width: 1440px){
-    .Skills{
-        width: 20rem;
-        padding: 4rem;
-        padding-bottom: 4rem;
-        height: 102%;
-    }
-    .Skills h2{
-        font-size: 3em;
-    }
-    .Icon img{
-        width: 1.5rem;
-        margin-right: 1rem;
-    }
+@media only screen and (min-width: 2000px){
+     .Skills h2{
+     font-size: 2rem;
+     margin-top: 4rem;
+     margin-bottom: 3rem;
+ }
     .Skills p{
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
-    .Icon{
-        margin-top: 2rem;
+    .BarContainer{
+        margin: 1.17rem 0rem;
     }
 }
+

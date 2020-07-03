@@ -7,7 +7,7 @@ class PortfolioButton extends React.Component {
     return (
       <div className="wrapper">
         <Link to="/Portfolio" className="PortfolioButton second after">
-          Portfolio
+          <p className="NavText">Portfolio</p>
         </Link>
       </div>
     );

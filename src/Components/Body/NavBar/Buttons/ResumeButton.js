@@ -7,7 +7,7 @@ class ResumeButton extends React.Component {
     return (
       <div className="wrapper">
       <Link to="/Resume" className="second after">
-        Resume
+        <p className="NavText">Resume</p>
       </Link>
       </div>
     );

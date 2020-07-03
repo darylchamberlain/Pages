@@ -1,10 +1,13 @@
-.Resume {
-    display: flex;
-    background-color: #f1f1f1
-}
-
 .ResumePage{
     background-color: #f1f1f1;
     height: 100%;
+    width: 100%;
 }
 
+.RightColumn{
+    background-color:#515161;
+    /* background-image: url('../ImageContainer/assets/patterns.jpg'); */
+    opacity: 0.2;
+    /* background-size: contain; */
+    z-index: 3;
+}

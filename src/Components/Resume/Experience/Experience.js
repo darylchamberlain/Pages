@@ -7,7 +7,7 @@ class Experience extends React.Component {
         return (
             <div className="Experience">
             <div className="Summary">
-                <h2>Professional Summary</h2>
+                <h1>Professional Summary</h1>
                 <p>Directing and implementing a broad range of revenue-generating design projects from conception
 	               to launch. Readily translate business requirements into effective advertising campaigns.</p>
             </div>

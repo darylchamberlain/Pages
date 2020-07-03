@@ -7,7 +7,7 @@ class HomeButton extends React.Component {
     return (
       <div className="wrapper Home">
       <Link to="/" className="second after">
-        Daryl Chamberlain
+        <p className="NavText">Chamberlain</p>
       </Link>
       </div>
     );

@@ -1,9 +1,5 @@
 .Experience{
-    display: flex;
-    flex-direction: column;
-    background-color: #f1f1f1;
-    padding:2.45rem 3rem;
-    height: 100%;
+   background-color: #f1f1f1;
 }
 
 .Summary,
@@ -18,24 +14,18 @@
 .Experience h2{
     color:rgb(81, 81, 97);
     font-size: 1.5rem;
-    margin-top: 1rem;
-    margin-left: 0.7rem;
-    margin-bottom: 0;
-}
-
-.Experience p{
-    display: flex;
-    margin: 0.7rem;
 }
 
 .Address{
     font-style: italic;
-    margin: 0;
     color: #7cbcbe;
+    margin: 0;
 }
 
-.Summary h2{
-    font-size: 2.5rem;
+
+.Summary h1{
+    color:rgb(81, 81, 97);
+    font-weight: bold;
 }
 
 .Summary p{
@@ -43,61 +33,38 @@
 }
 
 @media only screen and (min-width: 320px){
-    .Experience{
-       padding: 0.5rem 0rem;
-    }
     .Experience h2{
-        font-size: 0.8rem;
-        margin-top: 0rem;
-       letter-spacing:0;
+        font-size: 0.7rem;
+        letter-spacing:0;
+        margin-bottom: 0.25rem;
     }
     .Experience p{
-        line-height:0.75rem;
         font-size: 0.6rem;
+        line-height: 1.3;
+        margin-bottom: 0.5rem;
     }
     .Summary p{
-        margin-top: 0.5rem;
-        font-size: 0.6rem;
-        line-height:0.75rem;
-    }
-    .Summary h2{
-        font-size: 0.9rem;
         margin-top: 1rem;
-    }
-}
-
-@media only screen and (min-width: 360px){
-    .Experience{
-       padding: 0.5rem 0rem;
-    }
-    .Experience h2{
-        font-size: 0.8rem;
-        margin-top: 0rem;
-       letter-spacing:0;
-    }
-    .Experience p{
-        line-height:0.75rem;
         font-size: 0.6rem;
     }
-    .Summary p{
-        margin-top: 0.5rem;
-        font-size: 0.6rem;
-        line-height:0.75rem;
+    .Summary h1{
+        font-size: 01rem;
+        margin-top: 2rem;
+        letter-spacing: 0;
     }
-    .Summary h2{
-        font-size: 0.9rem;
-        margin-top: 1rem;
+    .Address{
+        font-size: 0.5rem !important;
+        margin-bottom: 0.5rem;
     }
 }
 
 @media only screen and (min-width: 768px){
     .Experience{
-       padding: 1rem;
-       margin-top: 1rem;
+        margin-top: 3rem;
     }
     .Experience h2{
-        font-size: 1.5rem;
-        margin-top: 0.5rem;
+        font-size: 1rem;
+        margin-top: 1rem;
     }
     .Experience p{
         margin-top: 0.5rem;
@@ -105,48 +72,44 @@
         line-height: 1.3rem;
     }
     .Summary p{
-        margin-top: 1rem;
+        margin-top: 3rem;
         font-size: 1rem;
+        line-height: 1.3;
     }
-    .Summary h2{
+    .Summary h1{
         font-size: 2rem;
-        margin-top: 0;
+        margin-top: 1rem;
+    }
+    .Address{
+        font-size: 0.8rem !important;
     }
 }
 
 @media only screen and (min-width: 1024px){
-    .Summary h2{
-        font-size: 3rem;
-        margin-top: 1rem;
+    .Summary h1{
+        margin-top: 3rem;
+        font-size: 2rem;
     }
     .Summary p{
         margin-top: 3rem;
+        line-height: 1.5;
     }
-
     .Experience h2{
-        letter-spacing: 0.1rem;
+        font-size: 1.3rem;
+        margin-top: 2rem;
     }
-    .Address{
-        font-weight: bold;
+    .Experience p{
+        font-size: 1rem;
+        line-height: 1.5;
     }
 }
 
-@media only screen and (min-width: 1439px){
-    .Experience{
-        width: 105rem;
-        padding: 4rem;
+@media only screen and (min-width: 2000px){
+    .Summary h1{
+        margin-top: 4rem !important;
+        margin-bottom: 4rem;
     }
-    .Summary h2{
-        font-size: 3rem;
-    }
-
-    .Experience h2{
-        letter-spacing: 0.25rem;
-    }
-    .Experience p{
-        width: 800px;
-    }
-    .Address{
-        font-weight: bold;
+    .Summary p{
+        margin-top: 3rem;
     }
 }
