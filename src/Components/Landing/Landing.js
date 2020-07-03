@@ -23,14 +23,19 @@ class Landing extends React.Component{
         return(
             <Container fluid>
                 <NavBar />
-                <Goo />  
-                <Col xs sm md xl={6} > 
-                    <ScrollAnimation  className="Title" animateIn="fadeInLeft">
+                <div><Goo /> 
+                    <Col xs sm md xl={6} > 
+                        <ScrollAnimation  
+                            className="Title" 
+                            animateIn="fadeInLeft"
+                            initiallyVisible={true}
+                            animateOnce={true}
+                        >
                             <h2>PORT</h2>
                             <h2>FOLIO</h2>
-                    </ScrollAnimation>
-                </Col>
-                <Col xs md xl={2}></Col>
+                        </ScrollAnimation>
+                    </Col>
+                </div>
             </Container>
         )
     }

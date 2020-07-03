@@ -30,7 +30,7 @@ class Resume extends React.Component {
                 <Container fluid>
                     <Row className="RowBackgroundColor"> 
                     <Col className="RightColumn" xs={0} sm={0} md={0} lg={0} xl={2}></Col>
-                    <Col xs={4} sm={3} md={3} lg={4} xl={3}>
+                    <Col xs={4} sm={3} md={3} lg={4} xl={2}>
                         <ScrollAnimation animateIn="fadeInLeft">
                             <Skills />
                         </ScrollAnimation>
@@ -40,6 +40,7 @@ class Resume extends React.Component {
                             <Experience />
                         </ScrollAnimation>
                     </Col>
+                    <Col xs={0} sm={0} md={0} lg={0} xl={1}></Col>
                     <Col className="RightColumn" xs={0} sm={0} md={0} lg={0} xl={2}></Col>
                     </Row>
                 </Container>

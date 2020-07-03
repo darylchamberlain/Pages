@@ -1,0 +1,19 @@
+.scroll-to-top{
+    text-align: center;
+    padding: 1rem;
+}
+
+.ScrollToTop{
+    z-index: 3;
+    background-image: url('../ImageContainer/assets/ArrowUp.svg');
+    height: 3rem;
+    background-repeat: no-repeat;
+    background-position: right;
+    opacity: 0.5;
+    margin-right:1rem;
+    margin-bottom: 10rem;
+}
+
+.ScrollToTop:hover{
+    opacity: 0.9;
+}

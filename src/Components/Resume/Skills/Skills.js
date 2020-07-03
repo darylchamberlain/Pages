@@ -17,7 +17,6 @@ class Skills extends React.Component {
     render() {
         return (
             <div className="Skills">
-                <h2>Skills</h2>
                 <div className="Icon">
                     <img src={Adobe} alt="bottle" />
                     <p className="Text">Adobe Cloud</p>  

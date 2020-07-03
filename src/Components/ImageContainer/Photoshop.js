@@ -25,26 +25,31 @@ class Photoshop extends React.Component {
     render() {
         return(
             <Container className="Center" fluid>  
-                <Row className="Center">
-                    <Col xs sm md xl={12} > 
-                        <ScrollAnimation animateIn="flipInX">
-                            <h2>Photoshop</h2>
-                        </ScrollAnimation>
-                    </Col> 
-                </Row> 
                 <Row >
                     <Col className="ColMargin" xs={12} sm={6} md={6} xl={4} > 
-                        <ScrollAnimation animateIn="fadeInLeft">
+                        <ScrollAnimation
+                        animateIn="fadeInLeft"
+                        initiallyVisible={true}
+                        animateOnce={true}
+                        >
                             <img src={bottle} alt="bottle" />
                         </ScrollAnimation> 
                     </Col>
                     <Col className="ColMargin" xs={12} sm={6} md={6} xl={4} > 
-                        <ScrollAnimation animateIn="fadeInRight">
+                        <ScrollAnimation 
+                        animateIn="fadeInRight"
+                        initiallyVisible={true}
+                        animateOnce={true}
+                        >
                             <img src={bag} alt="bag" />
                         </ScrollAnimation> 
                     </Col> 
                     <Col className="ColMargin" xs={12} sm={12} md={12} xl={4} > 
-                        <ScrollAnimation animateIn="fadeInUp">
+                        <ScrollAnimation 
+                        animateIn="fadeInUp"
+                        initiallyVisible={true}
+                        animateOnce={true}
+                        >
                             <img src={justice} alt="justice" />
                         </ScrollAnimation> 
                     </Col> 

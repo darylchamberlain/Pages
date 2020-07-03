@@ -18,6 +18,10 @@ import CarouselProvider from '../CarouselProvider'
 
 import "animate.css/animate.min.css";
 
+import ScrollToTop from '../ScrollToTop/ScrollToTop'
+
+import ScrollAnimation from 'react-animate-on-scroll';
+
 
 
 class Portfolio extends React.Component {
@@ -34,7 +38,11 @@ class Portfolio extends React.Component {
                     <Indesign />
                     <Logos />
                     <Paintings />
+                  
                 </div>
+                    <ScrollAnimation   animateIn="bounce">
+                        <ScrollToTop />
+                  </ScrollAnimation >
             </div>
         )
     }

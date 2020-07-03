@@ -35,55 +35,74 @@ class Indesign extends React.Component {
         return(
             <Container className="Center" fluid>
                 <Row className="Center">
-                    <Col xs sm md xl={12} >
-                        <ScrollAnimation animateIn="fadeInDown">
-                            <h2>Indesign</h2>
-                        </ScrollAnimation> 
-                    </Col>    
-                </Row>
-                <Row className="Center">
-
                     <Col xs={0} sm={0} md={0} lg={2}></Col>
                     <Col xs={12} sm={6} md={12} xl={8} > 
-                        <ScrollAnimation animateIn="fadeInRight">
-                            <img src={socks} alt="socks" />
+                        <ScrollAnimation 
+                            animateIn="fadeInRight"
+                            initiallyVisible={true}
+                            animateOnce={true}
+                        >
+                                <img src={socks} alt="socks" />
                         </ScrollAnimation> 
                     </Col> 
                     <Col xs={0} sm={0} md={0} lg={2}></Col> 
 
                     <Col xs={12} sm={6} md={6} xl={6} > 
-                        <ScrollAnimation animateIn="fadeInLeft">
-                            <img src={cooler} alt="cooler" />
+                        <ScrollAnimation 
+                            animateIn="fadeInLeft"
+                            initiallyVisible={true}
+                            animateOnce={true}
+                        >
+                                <img src={cooler} alt="cooler" />
                         </ScrollAnimation> 
                     </Col>  
                     <Col xs={12} sm={12} md={6} xl={6} > 
-                        <ScrollAnimation animateIn="fadeInRight">
-                            <img src={ski} alt="ski" />
+                        <ScrollAnimation 
+                            animateIn="fadeInRight"
+                            initiallyVisible={true}
+                            animateOnce={true}
+                        >
+                                <img src={ski} alt="ski" />
                         </ScrollAnimation> 
                     </Col>  
                 </Row> 
                 <Row className="Center"> 
                     <Col xs={12} sm={6} md={6} xl={6} > 
-                        <ScrollAnimation animateIn="fadeInLeft">
-                            <img src={layout} alt="layout" />
+                        <ScrollAnimation 
+                            animateIn="fadeInLeft"
+                            initiallyVisible={true}
+                            animateOnce={true}
+                        >
+                                <img src={layout} alt="layout" />
                         </ScrollAnimation> 
                     </Col>
                     <Col xs={12} sm={6} md={6} xl={6} >      
-                        <ScrollAnimation animateIn="fadeInLeft">
-                        <img src={page} alt="page" />
-                           
+                        <ScrollAnimation 
+                            animateIn="fadeInLeft"
+                            initiallyVisible={true}
+                            animateOnce={true}
+                        >
+                                <img src={page} alt="page" />   
                         </ScrollAnimation> 
                     </Col>  
                 </Row> 
                 <Row className="Center"> 
                     <Col xs={12} sm={6} md={6} xl={6} > 
-                        <ScrollAnimation animateIn="fadeInRight">
-                        <img src={hats} alt="hats" /> 
+                        <ScrollAnimation 
+                            animateIn="fadeInRight"
+                            initiallyVisible={true}
+                            animateOnce={true}
+                        >
+                            <img src={hats} alt="hats" /> 
                         </ScrollAnimation> 
                     </Col>  
                     <Col xs={12} sm={6} md={6} xl={6} > 
-                        <ScrollAnimation animateIn="fadeInUp">
-                            <img src={vr} alt="vr" />
+                        <ScrollAnimation 
+                            animateIn="fadeInUp"
+                            initiallyVisible={true}
+                            animateOnce={true}
+                        >
+                                <img src={vr} alt="vr" />
                         </ScrollAnimation> 
                     </Col> 
                 </Row>

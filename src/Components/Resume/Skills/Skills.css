@@ -70,10 +70,9 @@
 }
 
 @media only screen and (min-width: 320px){
-    .Skills h2{
-        font-size: 1rem;
-        letter-spacing: 0;
-        margin-top: 2rem;
+    .Skills{
+        padding: 0 1%;
+        margin-top: 1em;
     }
     .Line{
         height: 0.2rem;
@@ -83,28 +82,27 @@
     }
     .Icon img{
         width: 0.8rem;
-        margin: 0.415rem;
+        margin: 0.25rem;
     }
 }
 
 @media only screen and (min-width: 768px){
-    .Skills h2{
-        font-size: 2rem;
-        margin-top: 3rem;
-        margin-bottom: 2rem;
+    .Skills{
+        padding: 0 4%;
+        margin-top: 8.7em;
     }
     .Text{
         display: inline;
     }
     .Skills p{
-        font-size: 1rem;
+        font-size: 0.75rem;
         margin: 0rem 0.5rem;
     }
     .Line{
         height: 0.6rem;
     }
     .BarContainer{
-        margin: 0.9rem 0rem;
+        margin: 0.92rem 0rem;
     }
     .Icon img{
         width: 1rem;
@@ -128,10 +126,13 @@
 }
 
 @media only screen and (min-width: 2000px){
-     .Skills h2{
-     font-size: 2rem;
-     margin-top: 4rem;
-     margin-bottom: 3rem;
+    .Skills{
+        padding: 4.5%;
+    }
+    .Skills h2{
+        font-size: 2rem;
+        margin-top: 4rem;
+        margin-bottom: 3rem;
  }
     .Skills p{
         font-size: 1rem;

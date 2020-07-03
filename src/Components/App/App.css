@@ -3,14 +3,10 @@ html,
 #root {
   height: 100%;
   margin: 0;
- 
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 18px;
 }
 
-html {
-  font-size: 18px;
-  font-family: 'Titillium Web', sans-serif;
-  
-}
 
 h2 {
   font-size: 5.5rem;
