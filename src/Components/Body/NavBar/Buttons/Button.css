@@ -1,6 +1,8 @@
 
 .wrapper{
-  margin: 1rem auto;
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
 
 a,
@@ -54,17 +56,4 @@ a.second:after {
 a.before:hover:before,
 a.after:hover:after {
   width:100%;
-}
-
-
-@media only screen and (min-width: 320px){
-  .Name{
-  display: none;
-  }
-}
-
-@media only screen and (min-width: 765px){
-  .Name{
-  display: initial;
-  }
 }

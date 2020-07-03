@@ -5,7 +5,7 @@ import {Link } from "react-router-dom";
 class ResumeButton extends React.Component {
   render(){
     return (
-      <div className="wrapper">
+      <div className="wrapper ResumeButton">
       <Link to="/Resume" className="second after">
         <p className="NavText">Resume</p>
       </Link>

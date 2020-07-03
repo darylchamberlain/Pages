@@ -1,21 +1,25 @@
 .NavBar{
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   background-color: rgb(81, 81, 97);
-  height:3.5rem;
+  height:4rem;
   z-index: 1; 
 }
 
+.NavText{
+ margin: 0;
+}  
 
 .Home{
-  display: inline-flex;
-  justify-content: flex-start !important;
- margin: 1rem !important;
+  display: flex;
 }
 
 .PortfolioButton{
   display: flex;
-  justify-content: flex-start !important;
+}
+
+.ResumeButton{
+  display: flex;
 }
 
 
@@ -28,5 +32,9 @@
 @media only screen and (min-width: 765px){
   .NavText{
     font-size: 1rem;
+  }
+  .Home{
+    justify-content: start !important;
+    margin-left: 1rem !important;
   }
 }

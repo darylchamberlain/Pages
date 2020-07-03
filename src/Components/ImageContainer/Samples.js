@@ -57,8 +57,7 @@ class Samples extends React.Component {
                     </Col>
                 </Row>
                 <Row className="Center">
-                    <Col xs={0} sm={0} md={0} lg={1}></Col>
-                    <Col className="ColMargin" xs={12} sm={6} md={6} lg={3} > 
+                    <Col className="ColMargin" xs={12} sm={12} md={6} lg={3} > 
                          <ScrollAnimation animateIn="fadeInRight">
                             <img src={dew} alt="dew"/>
                         </ScrollAnimation> 
@@ -68,13 +67,12 @@ class Samples extends React.Component {
                             <img src={golves} alt="golves"/>
                         </ScrollAnimation> 
                     </Col>
-                    <Col xs={0} sm={0} md={1} lg={0}></Col>
                     <Col className="ColMargin" xs={12} sm={6} md={10}lg={3} > 
                         <ScrollAnimation animateIn="fadeInLeft">
                             <img src={greenbay} alt="greenbay"/>
                         </ScrollAnimation> 
                     </Col>
-                    <Col xs={0} sm={0} md={1} lg={1}></Col>
+-
                 </Row>
                 <Row className="Center">
                     <Col className="ColMargin" xs={12} sm={6} md={6} lg={3} > 
