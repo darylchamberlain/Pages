@@ -23,16 +23,16 @@ class NavBar extends React.Component{
         return (
             <Container fluid>
                 <Row>
-                    <Col className="NavBar" xs={4} md={6} lg={8} xl={9}> 
+                    <Col className="NavBar" xs={3} md={3} lg={6} xl={9}> 
                         <HomeButton />
                     </Col>
-                    <Col className="NavBar" xs={4} md={3} lg={2} xl={1}>
+                    <Col className="NavBar" xs={3} md={3} lg={2} xl={1}>
                         <PortfolioButton />
                     </Col>
-                    <Col className="NavBar" xs={4} md={3} lg={2} xl={1}>
+                    <Col className="NavBar" xs={3} md={3} lg={2} xl={1}>
                         <ResumeButton /> 
                     </Col>
-                    <Col className="NavBar" xs={4} md={3} lg={2} xl={1}>
+                    <Col className="NavBar" xs={3} md={3} lg={2} xl={1}>
                         <ContactButton /> 
                     </Col>
                 </Row>
